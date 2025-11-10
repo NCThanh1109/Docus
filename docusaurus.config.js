@@ -32,7 +32,7 @@ const config = {
     {
       tagName: "meta",
       attributes: {
-        name: "docsearch:verification",
+        name: "algolia-site-verification",
         content: "931F9571BA5203C6", // ← nhập mã Algolia
       },
     },
@@ -41,8 +41,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "vi",
-    locales: ["vi", "en"],
+    defaultLocale: "en",
+    locales: ["en"],
   },
   presets: [
     [
@@ -73,7 +73,6 @@ const config = {
       }),
     ],
   ],
-  themes: ["@docusaurus/theme-search-algolia"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
