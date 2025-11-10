@@ -33,7 +33,7 @@ const config = {
       tagName: "meta",
       attributes: {
         name: "algolia-site-verification",
-        content: "931F9571BA5203C6", // ← nhập mã Algolia
+        content: "AB2455402BADFE3E", // ← nhập mã Algolia
       },
     },
   ],
