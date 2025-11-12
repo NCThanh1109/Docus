@@ -15,6 +15,13 @@
   --ifm-color-primary-lightest: #2184b3;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --btn-bg: #0b76ff;
+  --btn-bg-hover: #095ec6;
+  --btn-text: #fff;
+  --btn-radius: 8px;
+  --btn-padding: 5px 10px;
+  --btn-shadow: 0 6px 18px rgba(11, 118, 255, 0.18);
+  --btn-shadow-active: 0 3px 8px rgba(0, 0, 0, 0.18);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -40,4 +47,46 @@
 .head_text {
   text-align: center;
   font-size: 30px;
+}
+
+.link_box {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+.link_box .btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  padding: var(--btn-padding);
+  border-radius: var(--btn-radius);
+  box-shadow: var(--btn-shadow);
+  font-weight: 600;
+  font-family: inherit;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  border: 0;
+  cursor: pointer;
+}
+.link_box .btn-link:hover {
+  background: var(--btn-bg-hover);
+  transform: translateY(-2px);
+}
+.link_box .btn-link:active {
+  transform: translateY(0);
+  box-shadow: var(--btn-shadow-active);
+}
+.link_box .btn-link:focus {
+  outline: 3px solid rgba(11, 118, 255, 0.18);
+  outline-offset: 3px;
+}
+
+.link_box p {
+  margin: 0;
+}
+
+html[data-theme="dark"] .faq-item {
+  color: black;
 }
