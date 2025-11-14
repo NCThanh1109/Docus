@@ -102,6 +102,10 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            type: "search",
+            position: "right",
+          },
         ],
       },
       //chỉnh sidebar dưới, thông tin cung cấp
