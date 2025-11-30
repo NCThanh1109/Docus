@@ -22,11 +22,11 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://NCThanh1109.github.io",
-  baseUrl: "/Docus/",
+  url: "https://docus-5pu.pages.dev",
+  baseUrl: "/",
   organizationName: "NCThanh1109",
   projectName: "Docus",
-  deploymentBranch: "gh-pages",
+  deploymentBranch: "main",
   onBrokenLinks: "throw",
   headTags: [
     {
