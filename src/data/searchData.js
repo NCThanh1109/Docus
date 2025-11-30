@@ -169,10 +169,10 @@ export const searchData = [
   },
   {
     "id": 22,
-    "title": "TN3. Sự hình thành liên kết  và liên kết ",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Sự hình thành liên kết  và liên kết  Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý ...",
+    "title": "TN3. Sự hình thành liên kết Xichma(σ) Và Pi(π)",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Sự hình thành liên kết Xichma(σ) Và Pi(π) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích...",
     "keywords": [],
-    "content": "TN3. Sự hình thành liên kết  và liên kết ",
+    "content": "TN3. Sự hình thành liên kết Xichma(σ) Và Pi(π)",
     "url": "/docs/danh-muc/hoa-10/tn3"
   },
   {
@@ -686,5 +686,13 @@ export const searchData = [
     "keywords": [],
     "content": "I. Một số thao tác cơ bản trong phòng thí nghiệm",
     "url": "/docs/danh-muc/kien-thuc-chung/thaotac-quytac/thaotac"
+  },
+  {
+    "id": 87,
+    "title": "Lời mở đầu",
+    "description": "Lời mở đầu Mục tiêu của chương trình Giáo dục Phổ thông 2018 cấp THPT môn Hóa là trang bị cho học sinh kiến thức hóa học cơ bản và hiện đại, phát triển năng lực tư duy phản biện, sáng tạo, giải quyết ...",
+    "keywords": [],
+    "content": "Lời mở đầu",
+    "url": "/docs/intro"
   }
 ];
