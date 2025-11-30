@@ -12,7 +12,7 @@ const GradeCards = [
     link: "/docs/danh-muc/hoa-10/tn1",
     icon: "🔬",
     color: "var(--grade-10-color)",
-    gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    gradient: "linear-gradient(135deg, #1581BF 0%, #3DB6B1 100%)",
   },
   {
     title: "Hoá học 11",
@@ -20,7 +20,7 @@ const GradeCards = [
     link: "/docs/danh-muc/hoa-11/tn1",
     icon: "⚗️",
     color: "var(--grade-11-color)",
-    gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+    gradient: "linear-gradient(135deg, #3DB6B1 0%, #1581BF 100%)",
   },
   {
     title: "Hoá học 12",
@@ -28,7 +28,7 @@ const GradeCards = [
     link: "/docs/danh-muc/hoa-12/tn1",
     icon: "🧪",
     color: "var(--grade-12-color)",
-    gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+    gradient: "linear-gradient(135deg, #F6B1CE 0%, #3DB6B1 100%)",
   },
 ];
 
@@ -38,14 +38,14 @@ const CategoryCards = [
     description: "Bảng tuần hoàn, dụng cụ, nhận biết chất",
     link: "/docs/danh-muc/kien-thuc-chung/bang-tuan-hoan",
     icon: "📚",
-    gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+    gradient: "linear-gradient(135deg, #F6B1CE 0%, #CCE5CF 100%)",
   },
   {
     title: "Câu hỏi",
     description: "Câu hỏi và bài tập theo từng lớp",
     link: "/docs/danh-muc/cauhoi/cauhoi10/halogen",
     icon: "❓",
-    gradient: "linear-gradient(135deg, #30cfd0 0%, #330867 100%)",
+    gradient: "linear-gradient(135deg, #1581BF 0%, #3DB6B1 100%)",
   },
 ];
 

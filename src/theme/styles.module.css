@@ -69,7 +69,7 @@
 
 .searchInput:focus {
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 0 0 4px rgba(21, 129, 191, 0.15);
   transform: scale(1.01);
 }
 
@@ -235,7 +235,7 @@
   background: var(--ifm-color-emphasis-200);
   border-color: var(--ifm-color-primary);
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 2px 8px rgba(21, 129, 191, 0.15);
 }
 
 .navButton svg {
@@ -267,15 +267,15 @@
 
 .resultCard:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 8px 24px rgba(21, 129, 191, 0.15);
   border-color: var(--ifm-color-primary);
   background: var(--ifm-color-emphasis-50);
 }
 
 .resultCard.active {
   border-color: var(--ifm-color-primary);
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
-  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+  background: linear-gradient(135deg, rgba(21, 129, 191, 0.08) 0%, rgba(61, 182, 177, 0.08) 100%);
+  box-shadow: 0 4px 16px rgba(21, 129, 191, 0.2);
 }
 
 .resultCard a {

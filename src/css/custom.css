@@ -6,19 +6,47 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  /* Chemistry-themed primary colors - Blue/Purple gradient */
-  --ifm-color-primary: #667eea;
-  --ifm-color-primary-dark: #5568d3;
-  --ifm-color-primary-darker: #4c5fc7;
-  --ifm-color-primary-darkest: #3e4ea3;
-  --ifm-color-primary-light: #7a8ef0;
-  --ifm-color-primary-lighter: #8a9ef2;
-  --ifm-color-primary-lightest: #a8b8f5;
+  /* Student-friendly color palette */
+  /* Primary: Blue (#1581BF) - Main brand color */
+  --ifm-color-primary: #1581BF;
+  --ifm-color-primary-dark: #1269a0;
+  --ifm-color-primary-darker: #105f91;
+  --ifm-color-primary-darkest: #0d4e77;
+  --ifm-color-primary-light: #1a99d8;
+  --ifm-color-primary-lighter: #1da3e2;
+  --ifm-color-primary-lightest: #2db0eb;
+  
+  /* Secondary: Teal (#3DB6B1) - Accent color */
+  --ifm-color-secondary: #3DB6B1;
+  --ifm-color-secondary-dark: #32918d;
+  --ifm-color-secondary-darker: #2d8581;
+  --ifm-color-secondary-darkest: #256d6a;
+  --ifm-color-secondary-light: #4dc5c0;
+  --ifm-color-secondary-lighter: #52c9c4;
+  --ifm-color-secondary-lightest: #66d1cc;
+  
+  /* Accent: Pink (#F6B1CE) - Highlights and special elements */
+  --accent-pink: #F6B1CE;
+  --accent-pink-dark: #e89ab8;
+  --accent-pink-darker: #e18ba9;
+  --accent-pink-darkest: #c96d8f;
+  --accent-pink-light: #f8c8de;
+  --accent-pink-lighter: #f9d0e3;
+  --accent-pink-lightest: #fbdfeb;
+  
+  /* Background: Light Green (#CCE5CF) - Subtle backgrounds */
+  --background-green: #CCE5CF;
+  --background-green-dark: #b3d4b6;
+  --background-green-darker: #a6cba9;
+  --background-green-darkest: #8ab88e;
+  --background-green-light: #d5ead8;
+  --background-green-lighter: #ddeee0;
+  --background-green-lightest: #e5f2e7;
   
   /* Additional chemistry-themed variables */
-  --grade-10-color: #667eea;
-  --grade-11-color: #f5576c;
-  --grade-12-color: #4facfe;
+  --grade-10-color: #1581BF;
+  --grade-11-color: #3DB6B1;
+  --grade-12-color: #F6B1CE;
   
   /* Typography */
   --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
@@ -28,15 +56,15 @@
   
   /* Code */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(21, 129, 191, 0.1);
   
   /* Buttons */
-  --btn-bg: #667eea;
-  --btn-bg-hover: #5568d3;
+  --btn-bg: #1581BF;
+  --btn-bg-hover: #1269a0;
   --btn-text: #fff;
   --btn-radius: 12px;
   --btn-padding: 12px 24px;
-  --btn-shadow: 0 6px 18px rgba(102, 126, 234, 0.25);
+  --btn-shadow: 0 6px 18px rgba(21, 129, 191, 0.25);
   --btn-shadow-active: 0 3px 8px rgba(0, 0, 0, 0.18);
   
   /* Spacing and layout */
@@ -51,14 +79,31 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #8a9ef2;
-  --ifm-color-primary-dark: #7a8ef0;
-  --ifm-color-primary-darker: #6a7eee;
-  --ifm-color-primary-darkest: #4a5eea;
-  --ifm-color-primary-light: #9aaef4;
-  --ifm-color-primary-lighter: #aabef6;
-  --ifm-color-primary-lightest: #cacef8;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #2db0eb;
+  --ifm-color-primary-dark: #1da3e2;
+  --ifm-color-primary-darker: #1a99d8;
+  --ifm-color-primary-darkest: #1581BF;
+  --ifm-color-primary-light: #3db8ed;
+  --ifm-color-primary-lighter: #4ec0ef;
+  --ifm-color-primary-lightest: #6fcff3;
+  
+  --ifm-color-secondary: #66d1cc;
+  --ifm-color-secondary-dark: #52c9c4;
+  --ifm-color-secondary-darker: #4dc5c0;
+  --ifm-color-secondary-darkest: #3DB6B1;
+  --ifm-color-secondary-light: #7ad9d4;
+  --ifm-color-secondary-lighter: #8ee1dc;
+  --ifm-color-secondary-lightest: #a2e9e4;
+  
+  --accent-pink: #fbdfeb;
+  --accent-pink-dark: #f9d0e3;
+  --accent-pink-darker: #f8c8de;
+  --accent-pink-darkest: #F6B1CE;
+  --accent-pink-light: #fce8f2;
+  --accent-pink-lighter: #fdf1f7;
+  --accent-pink-lightest: #fef9fc;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(21, 129, 191, 0.3);
   
   /* Dark mode adjustments */
   --ifm-background-color: #0d1117;
@@ -125,7 +170,7 @@
   box-shadow: var(--btn-shadow-active);
 }
 .link_box .btn-link:focus {
-  outline: 3px solid rgba(11, 118, 255, 0.18);
+  outline: 3px solid rgba(21, 129, 191, 0.18);
   outline-offset: 3px;
 }
 
@@ -197,11 +242,11 @@ html[data-theme="dark"] .table-ion {
 
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 24px rgba(21, 129, 191, 0.3);
 }
 
 .button--primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1581BF 0%, #3DB6B1 100%);
   border: none;
 }
 
@@ -245,7 +290,7 @@ html[data-theme="dark"] .table-ion {
 }
 
 .menu__link--active {
-  background: linear-gradient(90deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(90deg, rgba(21, 129, 191, 0.1) 0%, rgba(61, 182, 177, 0.1) 100%);
   border-left: 3px solid var(--ifm-color-primary);
   font-weight: 600;
 }
@@ -259,7 +304,7 @@ html[data-theme="dark"] .table-ion {
 
 .DocSearch-Button:hover {
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 4px rgba(21, 129, 191, 0.1);
 }
 
 /* Better typography */
@@ -294,7 +339,7 @@ table {
 }
 
 thead {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(21, 129, 191, 0.1) 0%, rgba(61, 182, 177, 0.1) 100%);
 }
 
 /* Smooth scrolling */
@@ -304,7 +349,7 @@ html {
 
 /* Enhanced footer */
 .footer {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(21, 129, 191, 0.05) 0%, rgba(61, 182, 177, 0.05) 100%);
   border-top: 1px solid var(--ifm-color-emphasis-200);
 }
 
