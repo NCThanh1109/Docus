@@ -1,38 +1,54 @@
 import React, { useState } from "react";
-import "./QuestBox.css"; // style riêng nếu cần
+import "./QuestBox.css";
 
-export default function QuestBox({ question, options }) {
+export default function QuestBox({
+  questionText,
+  questionJSX,
+  question,
+  options,
+}) {
   const [selected, setSelected] = useState(null);
 
-  const handleClick = (index, isCorrect) => {
+  const handleClick = (index) => {
     if (selected !== null) return; // chỉ chọn 1 lần
     setSelected(index);
   };
 
   return (
     <div className="quest-box">
+      {/* Câu hỏi */}
       <div className="quest-question">
-        <strong>{question}</strong>
+        {questionJSX ? (
+          <div className="question-content">{questionJSX}</div>
+        ) : questionText ? (
+          <strong>{questionText}</strong>
+        ) : question ? (
+          <strong>{question}</strong>
+        ) : null}
       </div>
+
+      {/* Đáp án */}
       <ul className="options">
         {options.map((opt, index) => {
           const isChosen = selected === index;
           const isCorrect = opt.correct;
-          let className = "";
 
+          let className = "option-item";
           if (selected !== null) {
-            if (isChosen && isCorrect) className = "correct";
-            else if (isChosen && !isCorrect) className = "wrong";
-            else if (!isChosen && isCorrect) className = "correct";
+            if (isChosen && isCorrect) className += " correct";
+            else if (isChosen && !isCorrect) className += " wrong";
+            else if (!isChosen && isCorrect) className += " correct";
           }
 
           return (
             <li
               key={index}
               className={className}
-              onClick={() => handleClick(index, opt.correct)}
+              onClick={() => handleClick(index)}
             >
-              {opt.text}
+              <div className="option-content">
+                {opt.jsx ? opt.jsx : opt.text}
+              </div>
             </li>
           );
         })}

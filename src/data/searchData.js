@@ -1,59 +1,59 @@
 export const searchData = [
   {
     "id": 1,
-    "title": "Thí nghiệm 1-2",
-    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thí nghiệm 1-2 Ôn tập kiến thức về thành phần nguyên tử. <QuestBox question={ < Câu 1: Hình vẽ dưới đây mô tả thí nghiệm tìm ra một hạt cấu tạo nê...",
+    "title": "Halogen",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import QuestBox from \"@site/src/components/QuestBox\"; Halogen Ôn tập kiến thức về các chất halogen <QuestBox question=\"Câu 1: Nguyên tố nào sau ...",
     "keywords": [],
-    "content": "Thí nghiệm 1-2",
-    "url": "/docs/danh-muc/cauhoi/cauhoi10/TN 1-2"
+    "content": "Halogen",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/halogen"
   },
   {
     "id": 2,
-    "title": "Thí nghiệm 3",
-    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thí nghiệm 3 Ôn tập kiến thức về sự hình thành liên kết σ và liên kết π <QuestBox question=\"Câu 1: Liên kết tạo thành do sự góp chung electron thu...",
+    "title": "Sự Hình Thành Liên Kết Hydrogen",
+    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Sự Hình Thành Liên Kết Hydrogen Ôn tập kiến thức về sự hình thành liên kết Hydrogen Liên kết Hydrogen <QuestBox question=\"Câu 1: Liên kết hydrogen...",
     "keywords": [],
-    "content": "Thí nghiệm 3",
-    "url": "/docs/danh-muc/cauhoi/cauhoi10/TN 3"
+    "content": "Sự Hình Thành Liên Kết Hydrogen",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/lkhydrogen"
   },
   {
     "id": 3,
-    "title": "Thí nghiệm 4-5",
-    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thí nghiệm 4-5 Ôn tập kiến thức về sự hình thành liên kết Hydrogen Liên kết Hydrogen <QuestBox question=\"Câu 1: Liên kết hydrogen là loại liên kết...",
+    "title": "Ảnh Hưởng Của Nồng Độ Đến Tốc Độ Phản Ứng",
+    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Ảnh Hưởng Của Nồng Độ Đến Tốc Độ Phản Ứng Ôn tập kiến thức về ảnh hưởng của nồng độ đến tốc độ phản ứng <QuestBox question=\"Câu 1: Tốc độ phản ứng...",
     "keywords": [],
-    "content": "Thí nghiệm 4-5",
-    "url": "/docs/danh-muc/cauhoi/cauhoi10/TN 4-5"
+    "content": "Ảnh Hưởng Của Nồng Độ Đến Tốc Độ Phản Ứng",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/nongdo-tocdophanung"
   },
   {
     "id": 4,
-    "title": "Thí nghiệm 6",
-    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thí nghiệm 6 Ôn tập kiến thức về phản ứng Oxy hoá - Khử <QuestBox question=\"Câu 1: Phản ứng oxi hóa – khử là phản ứng có sự nhường và nhận\" option...",
+    "title": "Phản Ứng Oxy Hoá - Khử",
+    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Phản Ứng Oxy Hoá - Khử Ôn tập kiến thức về phản ứng Oxy hoá - Khử <QuestBox question=\"Câu 1: Phản ứng oxi hóa – khử là phản ứng có sự nhường và nh...",
     "keywords": [],
-    "content": "Thí nghiệm 6",
-    "url": "/docs/danh-muc/cauhoi/cauhoi10/TN 6"
+    "content": "Phản Ứng Oxy Hoá - Khử",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/oxyhoa-khu"
   },
   {
     "id": 5,
-    "title": "Thí nghiệm 7-8",
-    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thí nghiệm 7-8 Ôn tập kiến thức về phản ứng toả nhiệt - thu nhiệt <QuestBox question=\"Câu 1: Phản ứng hóa học trong đó có sự truyền năng lượng từ ...",
+    "title": "Phản Ứng Toả Nhiệt - Thu Nhiệt",
+    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Phản Ứng Toả Nhiệt - Thu Nhiệt Ôn tập kiến thức về phản ứng toả nhiệt - thu nhiệt <QuestBox question=\"Câu 1: Phản ứng hóa học trong đó có sự truyề...",
     "keywords": [],
-    "content": "Thí nghiệm 7-8",
-    "url": "/docs/danh-muc/cauhoi/cauhoi10/TN 7-8"
+    "content": "Phản Ứng Toả Nhiệt - Thu Nhiệt",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/toa-thunhiet"
   },
   {
     "id": 6,
-    "title": "Thí nghiệm 9",
-    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thí nghiệm 9 Ôn tập kiến thức về ảnh hưởng của nồng độ <QuestBox question=\"Câu 1: Tốc độ phản ứng là\" options={[ { text: \"A. độ biến thiên nồng độ...",
+    "title": "Thành Phần Nguyên Tử",
+    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Thành Phần Nguyên Tử Ôn tập kiến thức về thành phần nguyên tử. <QuestBox question={ < Câu 1: Hình vẽ dưới đây mô tả thí nghiệm tìm ra một hạt cấu ...",
     "keywords": [],
-    "content": "Thí nghiệm 9",
-    "url": "/docs/danh-muc/cauhoi/cauhoi10/TN 9"
+    "content": "Thành Phần Nguyên Tử",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/tpnguyentu"
   },
   {
     "id": 7,
-    "title": "3. Các Dụng Cụ Thí Nghiệm",
-    "description": "3. Các Dụng Cụ Thí Nghiệm Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed... Create your first Post Create a file at blog/2021-02-28-greetings.md: m...",
+    "title": "Sự Hình Thành Liên Kết Xichma(σ) Và Pi(π)",
+    "description": "import QuestBox from \"@site/src/components/QuestBox\"; Sự Hình Thành Liên Kết Xichma(σ) Và Pi(π) Ôn tập kiến thức về sự hình thành liên kết σ và liên kết π <QuestBox question=\"Câu 1: Liên kết tạo thành...",
     "keywords": [],
-    "content": "3. Các Dụng Cụ Thí Nghiệm",
-    "url": "/docs/danh-muc/cauhoi/cauhoi11/dung-cu"
+    "content": "Sự Hình Thành Liên Kết Xichma(σ) Và Pi(π)",
+    "url": "/docs/danh-muc/cauhoi/cauhoi10/xichma-pi"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@ export const searchData = [
     "description": "3. Các Dụng Cụ Thí Nghiệm Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed... Create your first Post Create a file at blog/2021-02-28-greetings.md: m...",
     "keywords": [],
     "content": "3. Các Dụng Cụ Thí Nghiệm",
-    "url": "/docs/danh-muc/cauhoi/cauhoi12/dung-cu"
+    "url": "/docs/danh-muc/cauhoi/cauhoi11/dung-cu"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@ export const searchData = [
     "description": "3. Các Dụng Cụ Thí Nghiệm Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed... Create your first Post Create a file at blog/2021-02-28-greetings.md: m...",
     "keywords": [],
     "content": "3. Các Dụng Cụ Thí Nghiệm",
-    "url": "/docs/danh-muc/dieuche/dung-cu"
+    "url": "/docs/danh-muc/cauhoi/cauhoi12/dung-cu"
   },
   {
     "id": 10,
@@ -649,70 +649,22 @@ export const searchData = [
   },
   {
     "id": 82,
-    "title": "III. Các Dụng Cụ Thí Nghiệm",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; III. Các Dụng Cụ Thí Nghiệm Nghiên cứu về các dụng cụ thí nghiệm và thao tác thực hành trong các bài thực hành Hóa cấp trung học phổ thông 1. Các dụng cụ th...",
+    "title": "II. Các Dụng Cụ Thí Nghiệm",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; II. Các Dụng Cụ Thí Nghiệm Nghiên cứu về các dụng cụ thí nghiệm và thao tác thực hành trong các bài thực hành Hóa cấp trung học phổ thông 1. Các dụng cụ thu...",
     "keywords": [],
-    "content": "III. Các Dụng Cụ Thí Nghiệm",
+    "content": "II. Các Dụng Cụ Thí Nghiệm",
     "url": "/docs/danh-muc/kien-thuc-chung/dung-cu"
   },
   {
     "id": 83,
-    "title": "3. Cách đọc thể tích dung dịch trong dụng cụ đo",
-    "description": "3. Cách đọc thể tích dung dịch trong dụng cụ đo",
+    "title": "II. Một số gợi ý về thí nghiệm nhận biết chất:",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; II. Một số gợi ý về thí nghiệm nhận biết chất: Cách nhận biết các chất thông qua thí nghiệm 1. Nhận ...",
     "keywords": [],
-    "content": "3. Cách đọc thể tích dung dịch trong dụng cụ đo",
-    "url": "/docs/danh-muc/kien-thuc-chung/motsophuongphap/docthetich"
-  },
-  {
-    "id": 84,
-    "title": "5. Cách đun nóng hóa chất",
-    "description": "5. Cách đun nóng hóa chất",
-    "keywords": [],
-    "content": "5. Cách đun nóng hóa chất",
-    "url": "/docs/danh-muc/kien-thuc-chung/motsophuongphap/dunnong"
-  },
-  {
-    "id": 85,
-    "title": "2. Cách lấy hóa chất",
-    "description": "2. Cách lấy hóa chất",
-    "keywords": [],
-    "content": "2. Cách lấy hóa chất",
-    "url": "/docs/danh-muc/kien-thuc-chung/motsophuongphap/layhoachat"
-  },
-  {
-    "id": 86,
-    "title": "1. Một số phương pháp thu khí",
-    "description": "1. Một số phương pháp thu khí",
-    "keywords": [],
-    "content": "1. Một số phương pháp thu khí",
-    "url": "/docs/danh-muc/kien-thuc-chung/motsophuongphap/thukhi"
-  },
-  {
-    "id": 87,
-    "title": "4. Cách trộn hoặc khuấy dung dịch",
-    "description": "4. Cách trộn hoặc khuấy dung dịch",
-    "keywords": [],
-    "content": "4. Cách trộn hoặc khuấy dung dịch",
-    "url": "/docs/danh-muc/kien-thuc-chung/motsophuongphap/tronkhuay"
-  },
-  {
-    "id": 88,
-    "title": "6. Cách xử lý sau thí nghiệm",
-    "description": "6. Cách xử lý sau thí nghiệm",
-    "keywords": [],
-    "content": "6. Cách xử lý sau thí nghiệm",
-    "url": "/docs/danh-muc/kien-thuc-chung/motsophuongphap/xuly"
-  },
-  {
-    "id": 89,
-    "title": "II. Một Số Thí Nghiệm Nhận Biết Các Chất",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; II. Một Số Thí Nghiệm Nhận Biết Các Chất Nhận biết cation, anion, các chất khí. <FAQ question=\"A. Nhận biết cation.\" answer={ < </ } / <FAQ question=\"B. Nhậ...",
-    "keywords": [],
-    "content": "II. Một Số Thí Nghiệm Nhận Biết Các Chất",
+    "content": "II. Một số gợi ý về thí nghiệm nhận biết chất:",
     "url": "/docs/danh-muc/kien-thuc-chung/nhan-biet-chat/nhanbiet"
   },
   {
-    "id": 90,
+    "id": 84,
     "title": "I. Trạng Thái - Màu Sắc Của Một Số Chất",
     "description": "import FAQ from \"@site/src/components/FAQ\"; I. Trạng Thái - Màu Sắc Của Một Số Chất Nghiên cứu, tổng hợp về màu sắc, trạng thái của một số chất hóa học thường gặp ở chương trình Hóa THPT 1. Đơn chất: ...",
     "keywords": [],
@@ -720,75 +672,19 @@ export const searchData = [
     "url": "/docs/danh-muc/kien-thuc-chung/nhan-biet-chat/trangthai-mausac"
   },
   {
-    "id": 91,
-    "title": "Tutorial Intro",
-    "description": "Tutorial Intro Let's discover Docusaurus in less than 5 minutes. Getting Started Get started by creating a new site. Or try Docusaurus immediately with docusaurus.new. What you'll need - Node.js versi...",
+    "id": 85,
+    "title": "II. Quy tắc sử dụng hoá chất",
+    "description": "II. Quy tắc sử dụng hoá chất - Các lọ hoá chất phải đậy kín. - Mở nút lọ ra phải đặt ngửa nút lên. Lấy hoá chất xong phải đậy nút lại ngay để tránh nhầm lẫn và giữ lọ hoá chất. Tuyệt đối không được th...",
     "keywords": [],
-    "content": "Tutorial Intro",
-    "url": "/docs/intro"
+    "content": "II. Quy tắc sử dụng hoá chất",
+    "url": "/docs/danh-muc/kien-thuc-chung/thaotac-quytac/quytac"
   },
   {
-    "id": 92,
-    "title": "Congratulations!",
-    "description": "Congratulations! You have just learned the basics of Docusaurus and made some changes to the initial template. Docusaurus has much more to offer! Have 5 more minutes? Take a look at versioning and i18...",
+    "id": 86,
+    "title": "I. Một số thao tác cơ bản trong phòng thí nghiệm",
+    "description": "I. Một số thao tác cơ bản trong phòng thí nghiệm Những thao tác cần biết khi làm thí nghiệm 1. Lấy hóa chất rắn - Khi lấy hoá chất dạng rắn ta phải dùng kẹp hoặc chúng thìa, tuyệt đối không được dùng ...",
     "keywords": [],
-    "content": "Congratulations!",
-    "url": "/docs/tutorial-basics/congratulations"
-  },
-  {
-    "id": 93,
-    "title": "Create a Blog Post",
-    "description": "Create a Blog Post Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed... Create your first Post Create a file at blog/2021-02-28-greetings.md: md title...",
-    "keywords": [],
-    "content": "Create a Blog Post",
-    "url": "/docs/tutorial-basics/create-a-blog-post"
-  },
-  {
-    "id": 94,
-    "title": "Create a Document",
-    "description": "Create a Document Documents are groups of pages connected through: - a sidebar - previous/next navigation - versioning Create your first Doc Create a Markdown file at docs/hello.md: md title=\"docs/hel...",
-    "keywords": [],
-    "content": "Create a Document",
-    "url": "/docs/tutorial-basics/create-a-document"
-  },
-  {
-    "id": 95,
-    "title": "Create a Page",
-    "description": "Create a Page Add Markdown or React files to src/pages to create a standalone page: - src/pages/index.js → localhost:3000/ - src/pages/foo.md → localhost:3000/foo - src/pages/foo/bar.js → localhost:30...",
-    "keywords": [],
-    "content": "Create a Page",
-    "url": "/docs/tutorial-basics/create-a-page"
-  },
-  {
-    "id": 96,
-    "title": "Deploy your site",
-    "description": "Deploy your site Docusaurus is a static-site-generator (also called Jamstack). It builds your site as simple static HTML, JavaScript and CSS files. Build your site Build your site for production: bash...",
-    "keywords": [],
-    "content": "Deploy your site",
-    "url": "/docs/tutorial-basics/deploy-your-site"
-  },
-  {
-    "id": 97,
-    "title": "Markdown Features",
-    "description": "Markdown Features Docusaurus supports Markdown and a few additional features. Front Matter Markdown documents have metadata at the top called Front Matter: text title=\"my-doc.md\" // highlight-start --...",
-    "keywords": [],
-    "content": "Markdown Features",
-    "url": "/docs/tutorial-basics/markdown-features"
-  },
-  {
-    "id": 98,
-    "title": "Manage Docs Versions",
-    "description": "Manage Docs Versions Docusaurus can manage multiple versions of your docs. Create a docs version Release a version 1.0 of your project: bash npm run docusaurus docs:version 1.0 The docs folder is copi...",
-    "keywords": [],
-    "content": "Manage Docs Versions",
-    "url": "/docs/tutorial-extras/manage-docs-versions"
-  },
-  {
-    "id": 99,
-    "title": "Translate your site",
-    "description": "Translate your site Let's translate docs/intro.md to French. Configure i18n Modify docusaurus.config.js to add support for the fr locale: js title=\"docusaurus.config.js\" export default { i18n: { defau...",
-    "keywords": [],
-    "content": "Translate your site",
-    "url": "/docs/tutorial-extras/translate-your-site"
+    "content": "I. Một số thao tác cơ bản trong phòng thí nghiệm",
+    "url": "/docs/danh-muc/kien-thuc-chung/thaotac-quytac/thaotac"
   }
 ];

@@ -118,13 +118,6 @@ html[data-theme="dark"] .faq-item {
   display: block !important;
 }
 
-.table-mausac tbody,
-.table-mausac tr,
-.table-mausac td {
-  width: 100% !important;
-  display: block !important; /* quan trọng nhất */
-}
-
 .table-ion .ion-first {
   width: auto !important;
   vertical-align: middle;
@@ -143,4 +136,58 @@ html[data-theme="dark"] .faq-item {
 
 html[data-theme="dark"] .table-ion {
   color: white;
+}
+
+.table-gas {
+  color: black;
+  width: 100% !important;
+  display: block !important;
+}
+.table-gas td {
+  padding: 10px !important;
+}
+.table-gas .gas-first {
+  width: 15% !important;
+  vertical-align: middle;
+  text-align: top;
+}
+
+.table-gas .gas-second {
+  width: 20% !important;
+  vertical-align: top;
+}
+
+.table-gas .gas-third {
+  width: 100% !important;
+  vertical-align: top;
+}
+
+.table-gas-2 td,
+th {
+  padding: 5px !important;
+  width: fit-content !important;
+}
+
+.table-ion td,
+th {
+  padding: 5px !important;
+  width: fit-content !important;
+}
+
+.table-dungcu .first {
+  vertical-align: top;
+  width: 30% !important;
+}
+.table-dungcu td {
+  padding: 5px !important;
+}
+
+.thaotac-img,
+.table-thaotac td {
+  padding: 5px !important;
+  text-align: center !important;
+}
+
+.table-thaotac p {
+  margin: 0px !important;
 }
