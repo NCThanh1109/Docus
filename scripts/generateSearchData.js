@@ -76,7 +76,7 @@ function extractEquipmentData() {
           "glass",
         ],
         content: title,
-        url: "/docs/danh-muc/kien-thuc-chung/dung-cu",
+        url: "/docs/kien-thuc-chung/dung-cu",
         type: "equipment",
         category: "glass",
       });
@@ -96,7 +96,7 @@ function extractEquipmentData() {
           "metal",
         ],
         content: title,
-        url: "/docs/danh-muc/kien-thuc-chung/dung-cu",
+        url: "/docs/kien-thuc-chung/dung-cu",
         type: "equipment",
         category: "metal",
       });
