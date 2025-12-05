@@ -1,38 +1,124 @@
+/* ==== FAQ CARD ==== */
 .faq-item {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 5px;
-  margin: 10px 0;
-  padding: 10px;
-  background: var(--ifm-color-emphasis-100);
-  transition: background 0.3s ease;
+  background: var(--ifm-card-background-color, #ffffff);
+  border-radius: 16px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  margin: 1rem 0;
+  padding: 0;
 }
 
-.faq-item.open {
-  background: rgba(21, 129, 191, 0.08);
+[data-theme="dark"] .faq-item {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-300);
 }
 
+.faq-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--ifm-color-primary);
+}
+
+/* ==== QUESTION HEADER ==== */
 .faq-question {
+  padding: 1.25rem 1.5rem;
   cursor: pointer;
-  font-weight: bold;
+  user-select: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    rgba(21, 129, 191, 0.03) 0%,
+    rgba(61, 182, 177, 0.03) 100%
+  );
+
+  transition: background 0.2s ease;
 }
 
+.faq-item:hover .faq-question {
+  background: linear-gradient(
+    135deg,
+    rgba(21, 129, 191, 0.08) 0%,
+    rgba(61, 182, 177, 0.08) 100%
+  );
+}
+
+/* ==== TITLE ==== */
+.faq-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  line-height: 1.4;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+/* ==== TOGGLE ICON ==== */
 .faq-toggle {
-  font-size: 18px;
+  font-size: 1.2rem;
   color: var(--ifm-color-primary);
+  transition: transform 0.3s ease, background 0.2s ease;
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 
+.faq-toggle:hover {
+  background: rgba(21, 129, 191, 0.1);
+}
+
+.faq-item.open .faq-toggle {
+  transform: rotate(180deg);
+}
+
+/* ==== ANSWER CONTENT ==== */
 .faq-answer {
+  padding: 0 1.5rem 1.5rem 1.5rem;
   max-height: 0;
-  overflow: hidden;
   opacity: 0;
-  transition: max-height 0.4s ease, opacity 1s ease;
-  margin-top: 5px;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  animation: slideDown 0.3s ease;
+  color: var(--ifm-font-color-base);
+  line-height: 1.7;
+  font-size: 0.95rem;
 }
 
 .faq-item.open .faq-answer {
-  max-height: max-content; /* đủ để chứa nội dung */
+  max-height: max-content;
   opacity: 1;
+}
+
+/* Animation giống EquipmentCard */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+  .faq-question {
+    padding: 1rem 1.25rem;
+  }
+
+  .faq-answer {
+    padding: 0 1.25rem 1.25rem 1.25rem;
+  }
+
+  .faq-title {
+    font-size: 1rem;
+  }
+
+  .faq-toggle {
+    font-size: 1rem;
+  }
 }

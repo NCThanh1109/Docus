@@ -14,7 +14,11 @@
   font-weight: 700;
   color: var(--ifm-heading-color);
   margin: 0;
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-secondary) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary) 0%,
+    var(--ifm-color-secondary) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -126,10 +130,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-
-
-
-
-
-
+.singleColumn {
+  grid-template-columns: 1fr !important;
+}

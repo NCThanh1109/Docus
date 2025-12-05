@@ -356,7 +356,10 @@ export default function ModalSearch({ onClose }) {
         </div>
 
         <div className={styles.hintRow}>
-          <small>Nhấn <kbd>Esc</kbd> để thoát • <kbd>↑</kbd><kbd>↓</kbd> để điều hướng • <kbd>Enter</kbd> để chọn</small>
+          <small>
+            Nhấn <kbd>Esc</kbd> để thoát • <kbd>↑</kbd>
+            <kbd>↓</kbd> để điều hướng • <kbd>Enter</kbd> để chọn
+          </small>
         </div>
         <div className={styles.resultsWrap}>
           {results.length === 0 && query.length > 1 ? (
