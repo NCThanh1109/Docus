@@ -22,11 +22,11 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://docus-5pu.pages.dev",
-  baseUrl: "/",
+  url: "https://NCThanh1109.github.io",
+  baseUrl: "/Docus/",
   organizationName: "NCThanh1109",
   projectName: "Docus",
-  deploymentBranch: "main",
+  deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
   headTags: [
     {
@@ -107,7 +107,7 @@ const config = {
             to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-10",
             label: "Lớp 10",
             position: "left",
-          },  
+          },
           {
             to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-11",
             label: "Lớp 11",
@@ -123,11 +123,11 @@ const config = {
             label: "Câu hỏi",
             position: "left",
           },
-          
+
           {
             type: "search",
             position: "right",
-          },    
+          },
         ],
       },
       //chỉnh sidebar dưới, thông tin cung cấp
