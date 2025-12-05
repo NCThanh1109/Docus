@@ -138,7 +138,7 @@ export const searchData = [
   {
     "id": 18,
     "title": "TN1. Thí nghiệm khám phá tia âm cực của Thomson",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN1. Thí nghiệm khám phá tia âm cực của Thomson Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tíc...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN1. Thí nghiệm khám phá tia âm cực của Thomson Thí nghiệm khám phá tia âm cực của Thomson là thí nghiệm nền tảng mở ra mô hình “nguyên tử có cấu trúc”, dẫn...",
     "keywords": [],
     "content": "TN1. Thí nghiệm khám phá tia âm cực của Thomson",
     "url": "/docs/hoa-10/tn1"
@@ -226,17 +226,17 @@ export const searchData = [
   {
     "id": 29,
     "title": "TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm ...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford - Khám phá cấu trúc bên trong của nguyên tử - Kiểm chứng mô hình “nguyên tử rắn đặc” kiểu Thomson...",
     "keywords": [],
     "content": "TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford",
     "url": "/docs/hoa-10/tn2"
   },
   {
     "id": 30,
-    "title": "TN3. Sự hình thành liên kết Xichma(σ) Và Pi(π)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Sự hình thành liên kết Xichma(σ) Và Pi(π) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích...",
+    "title": "TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π)",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π) - Mô tả cơ chế xen phủ tạo liên kết σ và π - Hiểu độ bền & định hướng liên kết - Ứng dụng trong liên kết đơn, ...",
     "keywords": [],
-    "content": "TN3. Sự hình thành liên kết Xichma(σ) Và Pi(π)",
+    "content": "TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π)",
     "url": "/docs/hoa-10/tn3"
   },
   {
@@ -722,7 +722,7 @@ export const searchData = [
   {
     "id": 91,
     "title": "II. Các Dụng Cụ Thí Nghiệm",
-    "description": "import EquipmentSection from \"@site/src/components/EquipmentSection\"; import { glassEquipment, metalEquipment } from \"@site/src/components/EquipmentData\"; II. Các Dụng Cụ Thí Nghiệm Nghiên cứu về các ...",
+    "description": "import EquipmentSection from \"@site/src/components/EquipmentSection\"; import { glassEquipment, metalEquipment, } from \"@site/src/components/EquipmentData\"; II. Các Dụng Cụ Thí Nghiệm Nghiên cứu về các...",
     "keywords": [],
     "content": "II. Các Dụng Cụ Thí Nghiệm",
     "url": "/docs/kien-thuc-chung/dung-cu"
@@ -738,7 +738,7 @@ export const searchData = [
   {
     "id": 93,
     "title": "I. Trạng Thái - Màu Sắc Của Một Số Chất",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; I. Trạng Thái - Màu Sắc Của Một Số Chất Nghiên cứu, tổng hợp về màu sắc, trạng thái của một số chất hóa học thường gặp ở chương trình Hóa THPT 1. Đơn chất: ...",
+    "description": "import EquipmentSection from \"@site/src/components/EquipmentSection\"; import { singleSubstance, Compound, IonSubstance, Precipitate, } from \"@site/src/components/EquipmentData\"; import FAQ from \"@site...",
     "keywords": [],
     "content": "I. Trạng Thái - Màu Sắc Của Một Số Chất",
     "url": "/docs/kien-thuc-chung/nhan-biet-chat/trangthai-mausac"
