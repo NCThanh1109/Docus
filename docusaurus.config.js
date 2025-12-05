@@ -99,10 +99,15 @@ const config = {
             label: "📚 Danh mục",
           },
           {
+            to: "/docs/category/kiến-thức-chung",
+            label: "Kiến thức chung",
+            position: "left",
+          },
+          {
             to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-10",
             label: "Lớp 10",
             position: "left",
-          },
+          },  
           {
             to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-11",
             label: "Lớp 11",
@@ -114,9 +119,15 @@ const config = {
             position: "left",
           },
           {
+            to: "/docs/category/câu-hỏi-trắc-nghiệm",
+            label: "Câu hỏi",
+            position: "left",
+          },
+          
+          {
             type: "search",
             position: "right",
-          },
+          },    
         ],
       },
       //chỉnh sidebar dưới, thông tin cung cấp
