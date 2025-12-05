@@ -4,16 +4,16 @@ import "./PeriodicTable.css";
 
 // Updated color palette using student-friendly colors
 const categoryColors = {
-  "kim loại kiềm": "#F6B1CE",      // Pink
-  "kim loại kiềm thổ": "#CCE5CF",  // Light green
+  "kim loại kiềm": "#F6B1CE", // Pink
+  "kim loại kiềm thổ": "#CCE5CF", // Light green
   "kim loại chuyển tiếp": "#1581BF", // Blue
   "kim loại hậu chuyển tiếp": "#3DB6B1", // Teal
-  "á kim": "#CCE5CF",              // Light green
-  "phi kim": "#3DB6B1",            // Teal
-  halogen: "#F6B1CE",              // Pink
-  "khí hiếm": "#1581BF",           // Blue
-  lantanide: "#3DB6B1",            // Teal
-  actinide: "#F6B1CE",             // Pink
+  "á kim": "#CCE5CF", // Light green
+  "phi kim": "#3DB6B1", // Teal
+  halogen: "#F6B1CE", // Pink
+  "khí hiếm": "#1581BF", // Blue
+  lantanide: "#3DB6B1", // Teal
+  actinide: "#F6B1CE", // Pink
 };
 
 export default function PeriodicTable() {
@@ -37,9 +37,9 @@ export default function PeriodicTable() {
     return elements.filter((el) => {
       const matchSearch =
         !q ||
-        el.name.toLowerCase().includes(q) ||
-        el.viName.toLowerCase().includes(q) ||
-        el.symbol.toLowerCase().includes(q) ||
+        (el.name && el.name.toLowerCase().includes(q)) ||
+        (el.viName && el.viName.toLowerCase().includes(q)) ||
+        (el.symbol && el.symbol.toLowerCase().includes(q)) ||
         String(el.number) === q;
       const matchFilter = !filter || el.category === filter;
       return matchSearch && matchFilter;
@@ -51,15 +51,19 @@ export default function PeriodicTable() {
   // Close detail card when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (selected && detailCardRef.current && !detailCardRef.current.contains(event.target)) {
+      if (
+        selected &&
+        detailCardRef.current &&
+        !detailCardRef.current.contains(event.target)
+      ) {
         // Don't close if clicking on an element cell
-        if (!event.target.closest('.element-cell')) {
+        if (!event.target.closest(".element-cell")) {
           setSelected(null);
         }
       }
     };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [selected]);
 
   return (
@@ -74,8 +78,20 @@ export default function PeriodicTable() {
       <div className="toolbar">
         <div className="toolbar-group">
           <div className="input-wrapper">
-            <svg className="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M19 19L13 13M15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <svg
+              className="search-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                d="M19 19L13 13M15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8Z"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
             <input
               type="text"
@@ -86,9 +102,9 @@ export default function PeriodicTable() {
             />
           </div>
           <div className="select-wrapper">
-            <select 
+            <select
               className="toolbar-select"
-              value={filter} 
+              value={filter}
               onChange={(e) => setFilter(e.target.value)}
             >
               <option value="">Tất cả nhóm</option>
@@ -101,13 +117,18 @@ export default function PeriodicTable() {
           </div>
         </div>
         <div className="toolbar-actions">
-          <button 
+          <button
             className="toolbar-btn secondary"
             onClick={() => setShowDetails(!showDetails)}
             title={showDetails ? "Ẩn tên tiếng Việt" : "Hiện tên tiếng Việt"}
           >
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M8 1L10.5 5.5L15.5 6.5L12 9.5L12.5 14.5L8 12L3.5 14.5L4 9.5L0.5 6.5L5.5 5.5L8 1Z" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+              <path
+                d="M8 1L10.5 5.5L15.5 6.5L12 9.5L12.5 14.5L8 12L3.5 14.5L4 9.5L0.5 6.5L5.5 5.5L8 1Z"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                fill="none"
+              />
             </svg>
             {showDetails ? "Ẩn tên" : "Hiện tên"}
           </button>
@@ -120,7 +141,12 @@ export default function PeriodicTable() {
             title="Đặt lại bộ lọc"
           >
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M12 4L4 12M4 4L12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+              <path
+                d="M12 4L4 12M4 4L12 12"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
             </svg>
             Đặt lại
           </button>
@@ -133,7 +159,10 @@ export default function PeriodicTable() {
         <div className="legend-items">
           {Object.entries(categoryColors).map(([cat, color]) => (
             <div key={cat} className="legend-item">
-              <span className="legend-color" style={{ background: color }}></span>
+              <span
+                className="legend-color"
+                style={{ background: color }}
+              ></span>
               <span className="legend-label">{cat}</span>
             </div>
           ))}
@@ -181,23 +210,38 @@ export default function PeriodicTable() {
       {/* Detail Card Modal */}
       {selected && (
         <>
-          <div className="detail-overlay" onClick={() => setSelected(null)}></div>
+          <div
+            className="detail-overlay"
+            onClick={() => setSelected(null)}
+          ></div>
           <div className="detail-card" ref={detailCardRef}>
             <div className="detail-header">
-              <div className="detail-symbol" style={{ background: categoryColors[selected.category] || "#1581BF" }}>
+              <div
+                className="detail-symbol"
+                style={{
+                  background: categoryColors[selected.category] || "#1581BF",
+                }}
+              >
                 {selected.symbol}
               </div>
               <div className="detail-title">
                 <h3>{selected.viName}</h3>
-                <p className="detail-english">{selected.enName || selected.name || ''}</p>
+                <p className="detail-english">
+                  {selected.enName || selected.name || ""}
+                </p>
               </div>
-              <button 
+              <button
                 className="detail-close"
                 onClick={() => setSelected(null)}
                 aria-label="Đóng"
               >
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                  <path
+                    d="M15 5L5 15M5 5L15 15"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
                 </svg>
               </button>
             </div>
@@ -226,9 +270,11 @@ export default function PeriodicTable() {
               )}
               <div className="detail-row">
                 <span className="detail-label">Phân loại</span>
-                <span 
+                <span
                   className="detail-badge"
-                  style={{ background: categoryColors[selected.category] || "#1581BF" }}
+                  style={{
+                    background: categoryColors[selected.category] || "#1581BF",
+                  }}
                 >
                   {selected.category}
                 </span>

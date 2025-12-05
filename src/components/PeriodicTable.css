@@ -18,7 +18,7 @@
   font-weight: 700;
   color: var(--ifm-heading-color);
   margin: 0 0 0.5rem 0;
-  background: linear-gradient(135deg, #1581BF 0%, #3DB6B1 100%);
+  background: linear-gradient(135deg, #1581bf 0%, #3db6b1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -338,7 +338,11 @@
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
-  background: linear-gradient(135deg, rgba(21, 129, 191, 0.1) 0%, rgba(61, 182, 177, 0.1) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(21, 129, 191, 0.1) 0%,
+    rgba(61, 182, 177, 0.1) 100%
+  );
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
 
@@ -593,4 +597,7 @@
 
 [data-theme="dark"] .detail-overlay {
   background: rgba(0, 0, 0, 0.7);
+}
+[data-theme="dark"] .element-cell {
+  color: rgb(0, 0, 0);
 }
