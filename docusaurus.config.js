@@ -22,11 +22,11 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://NCThanh1109.github.io",
-  baseUrl: "/Docus/",
+  url: "https://docus-5pu.pages.dev",
+  baseUrl: "/",
   organizationName: "NCThanh1109",
   projectName: "Docus",
-  deploymentBranch: "gh-pages",
+  deploymentBranch: "main",
   onBrokenLinks: "throw",
   headTags: [
     {
@@ -99,24 +99,35 @@ const config = {
             label: "📚 Danh mục",
           },
           {
-            to: "/docs/hoa-10/tn1",
-            label: "Lớp 10",
+            to: "/docs/category/kiến-thức-chung",
+            label: "Kiến thức chung",
             position: "left",
           },
           {
-            to: "/docs/hoa-11/tn1",
+            to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-10",
+            label: "Lớp 10",
+            position: "left",
+          },  
+          {
+            to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-11",
             label: "Lớp 11",
             position: "left",
           },
           {
-            to: "/docs/hoa-12/tn1",
+            to: "/docs/category/ho%C3%A1-h%E1%BB%8Dc-12",
             label: "Lớp 12",
             position: "left",
           },
           {
+            to: "/docs/category/câu-hỏi-trắc-nghiệm",
+            label: "Câu hỏi",
+            position: "left",
+          },
+          
+          {
             type: "search",
             position: "right",
-          },
+          },    
         ],
       },
       //chỉnh sidebar dưới, thông tin cung cấp
