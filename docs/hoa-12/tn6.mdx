@@ -2,22 +2,135 @@
 sidebar_position: 6
 ---
 
+import MathBlock from "@site/src/components/MathBlock";
+
 import FAQ from "@site/src/components/FAQ";
 
 # TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường)
 
-## Mục tiêu thí nghiệm
+Chứng minh saccharose có các nhóm -OH liên kết với các nguyên tử carbon liền kề nhau
 
-## 1/ Tên thí nghiệm
+## 1/ Tên thí nghiệm: Saccharose tác dụng với copper hydroxyde Cu(OH)₂
 
 ## 2/ Chuẩn Bị
 
+**- Hoá chất:** dung dịch CuSO₄ 5%, dung dịch NaOH 10%, dung dịch saccharose 5%.
+**- Dụng cụ:** ống nghiệm.
+
 ## 3/ Các bước tiến hành
+
+- Cho khoảng 2 mL dung dịch NaOH 10% vào ống nghiệm. Sau đó, thêm khoảng 0,5 mL dung dịch CuSO₄ 5% vào, lắc nhẹ.
+- Cho khoảng 3 mL dung dịch saccharose 5% vào ống nghiệm, lắc đều.
+- Quan sát hiện tượng xảy ra, giải thích và viết phương trình hoá học?
 
 ## 4/ Link video thí nghiệm
 
 ## 5/ Phân tích ý nghĩa từng bước tiến hành
 
+<table>
+  <thead>
+    <tr>
+      <th>Bước tiến hành</th>
+      <th>Mục đích / Ý nghĩa</th>
+      <th>Phương trình / Giải thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Tạo môi trường kiềm và kết tủa Cu(OH)₂
+      </td>
+      <td>
+        – Tạo kết tủa Cu(OH)₂ ngay trong ống nghiệm để khảo sát khả năng hòa tan sau đó.
+        – Cu(OH)₂ là chất trung gian quan trọng giúp quan sát sự tạo phức.
+      </td>
+      <td>
+        Phản ứng tạo kết tủa:<br />
+        $$\text{Cu}^{2+} + 2\text{OH}^- \rightarrow \text{Cu}(\text{OH})_2 \downarrow$$ (xanh lam nhạt)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Thêm dung dịch saccharose 5% và lắc đều
+      </td>
+      <td>
+        Kiểm tra khả năng “hòa tan” Cu(OH)₂ của saccharose do tạo phức bền
+      </td>
+      <td>
+        – Saccharose có nhiều –OH kề nhau → tạo liên kết phối trí với Cu²⁺ → phức màu xanh lam đậm.
+        – Kết tủa Cu(OH)₂ biến mất dần → dung dịch trở nên trong hơn và có màu xanh lam sẫm, đặc trưng.
+      </td>
+    </tr>
+
+  </tbody>
+
+</table>
+
 ## 6/ Nhận xét và giải thích hiện tượng
 
+Phân tử saccharose có nhiều nhóm <font color="red">hydroxy</font> kề nhau nên dung dịch chất này có thể hoà tan Cu(OH)₂, trong môi trường <font color="red">kiềm</font>, tạo thành dung dịch có màu <font color="red">xanh lam</font>.<br />
+$$2\text{C}_{12}\text{H}_{22}\text{O}_{11} + \text{Cu}(\text{OH})_2 \rightarrow (\text{C}_{12}\text{H}_{21}\text{O}_{11})_2\text{Cu} + 2\text{H}_2\text{O}$$
+
+Dung dịch maltose cũng có phản ứng với Cu(OH)₂ tạo dung dịch phức màu xanh lam.
+
 ## 7/ Câu hỏi củng cố và mở rộng
+
+<FAQ
+  question="H1: Tại sao phải tạo kết tủa Cu(OH)₂ trước rồi mới cho saccharose vào?"
+  answer={
+    <>
+      → Đáp án: Để quan sát khả năng hòa tan và tạo phức của saccharose đối với
+      Cu(OH)₂. Nếu thêm cùng lúc, sẽ khó nhận diện hiện tượng
+    </>
+  }
+/>
+
+<FAQ
+  question="H2: Dung dịch saccharose không phản ứng với thuốc thử Tollens nhưng khi đun nóng với dung dịch acid loãng thì tạo thành dung dịch phản ứng với thuốc thử Tollens. Giải thích?."
+  answer={
+    <>
+      → Đáp án: Khi đun nóng với dung dịch acid loãng saccharose bị thuỷ phân
+      tạo thành glucose và fructose:
+      <br />
+      <MathBlock
+        formula={`\\text{C}_{12}\\text{H}_{22}\\text{O}_{11} + \\text{H}_2\\text{O} \\xrightarrow{\\text{enzyme hoặc H}^+} \\text{C}_6\\text{H}_{12}\\text{O}_6 \\text{ (glucose)} + \\text{C}_6\\text{H}_{12}\\text{O}_6 \\text{ (fructose)}`}
+      />
+      Fructose và glucose phản ứng với thuốc thử Tollens:
+      <br />
+      <MathBlock
+        formula={`\\text{C}_6\\text{H}_{12}\\text{O}_6 + 2[\\text{Ag}(\\text{NH}_3)_2]\\text{OH} \\xrightarrow{t^\\circ} \\text{CH}_2\\text{OH}[\\text{CHOH}]_4\\text{COONH}_4 + 2\\text{Ag} \\downarrow + 3\\text{NH}_3 + \\text{H}_2\\text{O}`}
+      />
+    </>
+  }
+/>
+
+<FAQ
+  question="H3: Tại sao maltose có thể phản ứng với thuốc thử Tollens, dung dịch nước bromine, còn saccharose không thể tham gia các phản ứng này?."
+  answer={
+    <>
+      → Đáp án: Vì Maltose có nhóm – OH hemiacetal (đường khử) nên có thể phản
+      ứng với thuốc thử Tollens, dung dịch nước bromine.
+    </>
+  }
+/>
+
+<FAQ
+  question="H4: Tại sao khi đun nóng saccharose với dung dịch HCl thu được dung dịch phản ứng với Cu(OH)2 (có mặt dung dịch NaOH, đun nóng), tạo kết tủa đỏ gạch? Viết phương trình hoá học minh hoạ."
+  answer={
+    <>
+      → Đáp án: : Khi đun nóng saccharose với dung dịch HCl thu được dung dịch
+      phản ứng với Cu(OH)2 (có mặt dung dịch NaOH, đun nóng), tạo kết tủa đỏ
+      gạch vì trong môi trường acid, saccharose bị thủy phân tạo thành glucose
+      và fructose. Glucose và fructose tạo được kết tủa đỏ gạch với copper(II)
+      hydroxide khi đun nóng trong môi trường kiềm.
+      <br />
+      <MathBlock
+        formula={`\\text{C}_{12}\\text{H}_{22}\\text{O}_{11} + \\text{H}_2\\text{O} \\xrightarrow{\\text{enzyme hoặc H}^+} \\text{C}_6\\text{H}_{12}\\text{O}_6 \\text{ (glucose)} + \\text{C}_6\\text{H}_{12}\\text{O}_6 \\text{ (fructose)}`}
+      />
+      <br />
+      <MathBlock
+        formula={`\\text{CH}_2\\text{OH}[\\text{CHOH}]_4\\text{CH}=\\text{O} + 2\\text{Cu}(\\text{OH})_2 + \\text{NaOH} \\xrightarrow{t^\\circ\\text{C}} \\text{CH}_2\\text{OH}[\\text{CHOH}]_4\\text{COONa} + \\text{Cu}_2\\text{O} \\downarrow + 3\\text{H}_2\\text{O}`}
+      />
+    </>
+  }
+/>

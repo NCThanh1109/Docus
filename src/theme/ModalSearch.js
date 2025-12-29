@@ -13,7 +13,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
    - highlight: returns array of React nodes highlighting matched ranges
    ======================== */
 
-// maps for subscripts/superscripts
+// map đổi các ký tự
 const SUB_MAP = {
   "₀": "0",
   "₁": "1",
@@ -40,7 +40,7 @@ const SUP_MAP = {
 };
 
 function normalizeChemicalText(text = "") {
-  // convert special subscripts/superscripts and plus/minus signs to ascii
+  // chuyển đổi các ký tự đặc biệt thành unicode
   let s = String(text);
   s = s.replace(/[₀₁₂₃₄₅₆₇₈₉]/g, (m) => SUB_MAP[m] || m);
   s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, (m) => SUP_MAP[m] || m);

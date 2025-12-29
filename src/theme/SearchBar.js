@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 export default function SearchBar() {
   const [open, setOpen] = useState(false);
-
+  //mở search = key ctrl+k
   useEffect(() => {
     function handleKeyDown(e) {
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {

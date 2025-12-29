@@ -2,22 +2,141 @@
 sidebar_position: 12
 ---
 
+import MathBlock from "@site/src/components/MathBlock";
+
 import FAQ from "@site/src/components/FAQ";
 
-# TN12. Tính chất base của amine
+# TN12. Pin Galvani Zn-Cu
 
-## Mục tiêu thí nghiệm
+- Tìm hiểu thế điện cực chuẩn của kim loại và cấu tạo, nguyên tắc hoạt động của pin Galvani.
+- Khi nhúng thanh kim loại (M) vào dung dịch muối của nó (Mⁿ⁺), tạo thành một điện cực. Ở điện cực sẽ xuất hiện một thế điện cực (E) nhất định. Nếu nồng độ ion Mⁿ⁺ trong dung dịch bằng 1 M, ở 25°C thì có thế điện cực chuẩn (E°) của cặp oxi hoá – khử Mⁿ⁺/M (E°ₘⁿ⁺/ₘ).
+- Pin Galvani gồm hai điện cực có thế điện cực khác nhau, thường được ghép với nhau qua cầu muối. Pin Galvani chuyển năng lượng của phản ứng hoá học thành năng lượng điện.
 
-## 1/ Tên thí nghiệm
+## 1/ Tên thí nghiệm: pin galvani Zn- Cu
 
-## 2/ Chuẩn Bị
+## 2/ Cấu tạo
 
-## 3/ Các bước tiến hành
+Pin Galvani Zn–Cu gồm điện cực kẽm và điện cực đồng được nối với nhau bởi cầu muối (thường chứa dung dịch KCl bão hoà).<br />
+![Pin Galvani](https://raw.githubusercontent.com/NCThanh1109/KHKT/main/hoa12/pingalvani.png)
+
+## 3/ Nguyên tắc hoạt động của pin
+
+- Điện cực âm, anode (–): Xảy ra quá trình oxi hoá kẽm.<br />
+  $$\text{Zn} \longrightarrow \text{Zn}^{2+} + 2\text{e}$$
+- Điện cực dương, cathode (+): Xảy ra quá trình khử ion đồng(II).<br />
+  $$\text{Cu}^{2+} + 2\text{e} \longrightarrow \text{Cu}$$
+- Phản ứng oxi hoá – khử xảy ra trong pin:<br />
+  $$\text{Zn} + \text{Cu}^{2+} \longrightarrow \text{Zn}^{2+} + \text{Cu}$$
+- Electron chuyển từ thanh Zn qua dây dẫn đến thanh Cu. Cầu muối đóng vai trò khép kín mạch và trung hoà điện tích của dung dịch ở hai điện cực.
 
 ## 4/ Link video thí nghiệm
 
-## 5/ Phân tích ý nghĩa từng bước tiến hành
+## 5/ Nhận xét và giải thích hiện tượng
 
-## 6/ Nhận xét và giải thích hiện tượng
+<table>
+  <thead>
+    <tr>
+      <th>Hiện tượng</th>
+      <th>Quan sát</th>
+      <th>Giải thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong>1. Kẽm bị ăn mòn, khối lượng giảm dần (anode)</strong>
+      </td>
+      <td>
+        thanh Zn mòn dần, bề mặt xỉn/đục.
+      </td>
+      <td>
+        Zn → Zn²⁺ vào dung dịch; kim loại mất electron → tiêu hao vật liệu.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>2. Đồng gia tăng khối lượng (cathode) — mạ Cu lên bề mặt</strong>
+      </td>
+      <td>
+        lớp sáng kim loại Cu bám vào trên cathode; khối lượng thanh Cu tăng.
+      </td>
+      <td>
+        Cu²⁺ trong dung dịch nhận electron, khử thành Cu kim loại và bám vào điện cực.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>3. Màu dung dịch thay đổi</strong>
+      </td>
+      <td>
+        dung dịch chứa Cu²⁺ ban đầu có màu xanh lam (tùy nồng độ); khi Cu²⁺ bị khử, màu xanh nhạt dần. 
+        Dung dịch sau điện phân có muối (Zn²⁺) không màu.
+      </td>
+      <td>
+        do nồng độ Cu²⁺ giảm dần ( vì chuyển về trạng thái kim loại rắn).
+      </td>
+    </tr>
 
-## 7/ Câu hỏi củng cố và mở rộng
+  </tbody>
+
+</table>
+## 6/ Câu hỏi củng cố và mở rộng
+
+<FAQ
+  question="H1: Tại sao Zn đóng vai trò anode (bị oxi hóa) còn Cu là cathode (bị khử) trong pin Zn–Cu?"
+  answer={
+    <>
+      → Đáp án: Vì Zn có thế chuẩn oxi hóa (Zn²⁺/Zn) thấp hơn (−0,76 V) so với
+      Cu (Cu²⁺/Cu = +0,34 V), nên Zn dễ mất electron hơn — tự nhiên bị oxi hóa;
+      Cu²⁺ dễ nhận electron hơn — bị khử.
+    </>
+  }
+/>
+
+<FAQ
+  question="H2: Vai trò của cầu muối là gì? Nếu bỏ cầu muối, điều gì sẽ xảy ra?"
+  answer={
+    <>
+      → Đáp án: Cầu muối cho ion di chuyển bù điện tích, duy trì trung hoà hai
+      nửa- tế bào; nếu bỏ, hiện tượng tích điện sẽ ngăn dòng electron chảy (pin
+      nhanh chóng ngắt), phản ứng dừng
+    </>
+  }
+/>
+
+<FAQ
+  question="H3: Nếu thay dung dịch Cu²⁺ bằng dung dịch Ag⁺ ở cathode (cặp Zn|Zn²⁺ || Ag⁺|Ag), hiệu điện thế tế bào sẽ thay đổi thế nào?"
+  answer={
+    <>
+      → Đáp án: E°cell = E°(Ag⁺/Ag) − E°(Zn²⁺/Zn). Vì E°(Ag⁺/Ag) ≈ +0,80 V, ta
+      có E° ≈ 0,80 − (−0,76) = 1,56 V → lớn hơn Zn–Cu (1,10 V). (Kết luận: chọn
+      cathode có thế khử cao hơn tăng E°).
+    </>
+  }
+/>
+
+<FAQ
+  question="H4: Trong pin hoạt động, khối lượng Zn giảm và khối lượng Cu tăng. Hãy giải thích bằng các phương trình bán phản ứng."
+  answer={
+    <>
+      → Đáp án:
+      <br />
+      Anode:
+      <MathBlock
+        formula={`\\text{Zn} \\longrightarrow \\text{Zn}^{2+} + 2\\text{e} \\quad (\\text{Zn mất} \\rightarrow \\text{khối lượng giảm})`}
+      />
+      Cathode:
+      <MathBlock
+        formula={`\\text{Cu}^{2+} + 2\\text{e} \\longrightarrow \\text{Cu} \\quad (\\text{Cu}^{2+} \\text{ chuyển thành kim loại Cu, bám vào cathode} \\rightarrow \\text{khối lượng tăng})`}
+      />
+    </>
+  }
+/>
+
+<FAQ
+  question="H5: Tại sao hiệu điện thế đo được không bằng đúng E° = 1,10 V trong thực tế?"
+  answer="
+      → Đáp án: Vì điều kiện thực tế khác Điện cực chuẩn (nồng độ ion ≠ 1 M,
+      nhiệt độ ≠ 25 °C) nên E thực tế < E°.
+    "
+/>
