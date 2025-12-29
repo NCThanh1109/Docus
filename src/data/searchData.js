@@ -482,229 +482,117 @@ export const searchData = [
   {
     "id": 61,
     "title": "TN1. Thủy phân ester trong môi trường acid và base",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN1. Thủy phân ester trong môi trường acid và base Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân ...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN1. Thủy phân ester trong môi trường acid và base - Thử tính chất vật lý của ester – lipid. - Khảo sát, so sánh sự thủy phân của ester trong môi trường aci...",
     "keywords": [],
     "content": "TN1. Thủy phân ester trong môi trường acid và base",
     "url": "/docs/hoa-12/tn1"
   },
   {
     "id": 62,
-    "title": "TN10. Phản ứng của cellulose với nitric acid",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN10. Phản ứng của cellulose với nitric acid Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý...",
+    "title": "TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂)",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂) - Quan sát sự hình thành kết tủa Cu(OH)₂ và theo dõi quá trình kết tủa tan dần khi cho methylamin...",
     "keywords": [],
-    "content": "TN10. Phản ứng của cellulose với nitric acid",
+    "content": "TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂)",
     "url": "/docs/hoa-12/tn10"
   },
   {
     "id": 63,
-    "title": "TN11. Cellulose tan trong nước schweizer",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN11. Cellulose tan trong nước schweizer Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý ngh...",
+    "title": "TN11. Phản ứng màu biuret của peptide",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN11. Phản ứng màu biuret của peptide Một số phản ứng màu đặc trưng của polypeptide. 1/ Tên thí nghiệm: Phản ứng màu biuret của peptide 2/ Chuẩn Bị - Hóa ch...",
     "keywords": [],
-    "content": "TN11. Cellulose tan trong nước schweizer",
+    "content": "TN11. Phản ứng màu biuret của peptide",
     "url": "/docs/hoa-12/tn11"
   },
   {
     "id": 64,
-    "title": "TN12. Tính chất base của amine",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN12. Tính chất base của amine Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng bư...",
+    "title": "TN12. Pin Galvani Zn-Cu",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; TN12. Pin Galvani Zn-Cu - Tìm hiểu thế điện cực chuẩn của kim loại và cấu tạo, nguyên tắc hoạt động ...",
     "keywords": [],
-    "content": "TN12. Tính chất base của amine",
+    "content": "TN12. Pin Galvani Zn-Cu",
     "url": "/docs/hoa-12/tn12"
   },
   {
     "id": 65,
-    "title": "TN13. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN13. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link vi...",
+    "title": "TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghi...",
     "keywords": [],
-    "content": "TN13. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂)",
+    "content": "TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
     "url": "/docs/hoa-12/tn13"
   },
   {
     "id": 66,
-    "title": "TN14. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN14. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm ...",
+    "title": "TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link vid...",
     "keywords": [],
-    "content": "TN14. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂)",
+    "content": "TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
     "url": "/docs/hoa-12/tn14"
   },
   {
     "id": 67,
-    "title": "TN15. Phản ứng màu biuret của peptide",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN15. Phản ứng màu biuret của peptide Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa ...",
-    "keywords": [],
-    "content": "TN15. Phản ứng màu biuret của peptide",
-    "url": "/docs/hoa-12/tn15"
-  },
-  {
-    "id": 68,
-    "title": "TN16. Phản ứng đông tụ và phản ứng màu của protein",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN16. Phản ứng đông tụ và phản ứng màu của protein Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân ...",
-    "keywords": [],
-    "content": "TN16. Phản ứng đông tụ và phản ứng màu của protein",
-    "url": "/docs/hoa-12/tn16"
-  },
-  {
-    "id": 69,
-    "title": "TN17. Pin Galvani Zn-Cu",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN17. Pin Galvani Zn-Cu Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng bước tiến...",
-    "keywords": [],
-    "content": "TN17. Pin Galvani Zn-Cu",
-    "url": "/docs/hoa-12/tn17"
-  },
-  {
-    "id": 70,
-    "title": "TN18. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN18. Điện phân dung dịch CuSO₄, điện cực graphite (than chì) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghi...",
-    "keywords": [],
-    "content": "TN18. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
-    "url": "/docs/hoa-12/tn18"
-  },
-  {
-    "id": 71,
-    "title": "TN19. Điều chế nước Javel",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN19. Điều chế nước Javel Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng bước ti...",
-    "keywords": [],
-    "content": "TN19. Điều chế nước Javel",
-    "url": "/docs/hoa-12/tn19"
-  },
-  {
-    "id": 72,
     "title": "TN2. Phản ứng xà phòng hóa chất béo",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN2. Phản ứng xà phòng hóa chất béo Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từ...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN2. Phản ứng xà phòng hóa chất béo - Nghiên cứu sự thủy phân chất béo trong môi trường kiềm. - Hiểu được cơ chế xà phòng hóa và hiện tượng salting-out khi ...",
     "keywords": [],
     "content": "TN2. Phản ứng xà phòng hóa chất béo",
     "url": "/docs/hoa-12/tn2"
   },
   {
-    "id": 73,
-    "title": "TN20. Điện phân nóng chảy",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN20. Điện phân nóng chảy Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng bước ti...",
+    "id": 68,
+    "title": "TN3. Phản ứng ester hóa (điều chế ester)",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Phản ứng ester hóa (điều chế ester) Tổng hợp dầu chuối (isomayl acetate) bằng phản ứng ester hóa. - Quan sát và phân tích phản ứng este hóa trong môi t...",
     "keywords": [],
-    "content": "TN20. Điện phân nóng chảy",
-    "url": "/docs/hoa-12/tn20"
-  },
-  {
-    "id": 74,
-    "title": "TN21. Kim loại phản ứng với dung dịch HCl hoặc dung dịch H₂SO₄",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN21. Kim loại phản ứng với dung dịch HCl hoặc dung dịch H₂SO₄ Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí ngh...",
-    "keywords": [],
-    "content": "TN21. Kim loại phản ứng với dung dịch HCl hoặc dung dịch H₂SO₄",
-    "url": "/docs/hoa-12/tn21"
-  },
-  {
-    "id": 75,
-    "title": "TN22. Kim loại phản ứng với nước",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN22. Kim loại phản ứng với nước Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng ...",
-    "keywords": [],
-    "content": "TN22. Kim loại phản ứng với nước",
-    "url": "/docs/hoa-12/tn22"
-  },
-  {
-    "id": 76,
-    "title": "TN23. Kim loại phản ứng với dung dịch muối",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN23. Kim loại phản ứng với dung dịch muối Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý n...",
-    "keywords": [],
-    "content": "TN23. Kim loại phản ứng với dung dịch muối",
-    "url": "/docs/hoa-12/tn23"
-  },
-  {
-    "id": 77,
-    "title": "TN24. Ăn mòn điện hóa đối với sắt",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN24. Ăn mòn điện hóa đối với sắt Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng...",
-    "keywords": [],
-    "content": "TN24. Ăn mòn điện hóa đối với sắt",
-    "url": "/docs/hoa-12/tn24"
-  },
-  {
-    "id": 78,
-    "title": "TN25. Bảo vệ sắt bằng phương pháp điện hóa",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN25. Bảo vệ sắt bằng phương pháp điện hóa Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý n...",
-    "keywords": [],
-    "content": "TN25. Bảo vệ sắt bằng phương pháp điện hóa",
-    "url": "/docs/hoa-12/tn25"
-  },
-  {
-    "id": 79,
-    "title": "TN26. Nhận biết các ion Ca²+, Ba²+, SO₄²-, CO₃²-",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN26. Nhận biết các ion Ca²+, Ba²+, SO₄²-, CO₃²- Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tí...",
-    "keywords": [],
-    "content": "TN26. Nhận biết các ion Ca²+, Ba²+, SO₄²-, CO₃²-",
-    "url": "/docs/hoa-12/tn26"
-  },
-  {
-    "id": 80,
-    "title": "TN27. Phương pháp Solvay",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN27. Phương pháp Solvay Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng bước tiế...",
-    "keywords": [],
-    "content": "TN27. Phương pháp Solvay",
-    "url": "/docs/hoa-12/tn27"
-  },
-  {
-    "id": 81,
-    "title": "TN28. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN28. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link vid...",
-    "keywords": [],
-    "content": "TN28. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
-    "url": "/docs/hoa-12/tn28"
-  },
-  {
-    "id": 82,
-    "title": "TN3. Phản ứng ester hóa ( điều chế ester)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Phản ứng ester hóa ( điều chế ester) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý ng...",
-    "keywords": [],
-    "content": "TN3. Phản ứng ester hóa ( điều chế ester)",
+    "content": "TN3. Phản ứng ester hóa (điều chế ester)",
     "url": "/docs/hoa-12/tn3"
   },
   {
-    "id": 83,
+    "id": 69,
     "title": "TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí ...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng) - Chứng minh glucose có các nhóm -OH liên kết với các nguyên tử carbon liền kề nhau và có ...",
     "keywords": [],
     "content": "TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng)",
     "url": "/docs/hoa-12/tn4"
   },
   {
-    "id": 84,
+    "id": 70,
     "title": "TN5. Glucose tác dụng với thuốc thử Tollens",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN5. Glucose tác dụng với thuốc thử Tollens Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý ...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN5. Glucose tác dụng với thuốc thử Tollens - Chứng minh glucose thể hiện tính chất của aldehyde. Nhận biết glucose. 1/ Tên thí nghiệm: Glucose tác dụng với...",
     "keywords": [],
     "content": "TN5. Glucose tác dụng với thuốc thử Tollens",
     "url": "/docs/hoa-12/tn5"
   },
   {
-    "id": 85,
+    "id": 71,
     "title": "TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link vi...",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường) Chứng minh saccharose có c...",
     "keywords": [],
     "content": "TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường)",
     "url": "/docs/hoa-12/tn6"
   },
   {
-    "id": 86,
+    "id": 72,
     "title": "TN7. Thí nghiệm thủy phân tinh bột",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN7. Thí nghiệm thủy phân tinh bột Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từn...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN7. Thí nghiệm thủy phân tinh bột Chứng minh tinh bột có phản ứng thủy phân trong môi trường acid. 1/ Tên thí nghiệm: Thí nghiệm thủy phân tinh bột 2/ Chuẩ...",
     "keywords": [],
     "content": "TN7. Thí nghiệm thủy phân tinh bột",
     "url": "/docs/hoa-12/tn7"
   },
   {
-    "id": 87,
-    "title": "TN8. Nhận biết tinh bột bằng iodine",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN8. Nhận biết tinh bột bằng iodine Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từ...",
+    "id": 73,
+    "title": "TN8. Tính chất base của amine",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN8. Tính chất base của amine - Nhận biết tính base yếu của amine (methylamine/ethylamine). - Quan sát phản ứng tạo muối amoni khi amine tác dụng với acid. ...",
     "keywords": [],
-    "content": "TN8. Nhận biết tinh bột bằng iodine",
+    "content": "TN8. Tính chất base của amine",
     "url": "/docs/hoa-12/tn8"
   },
   {
-    "id": 88,
-    "title": "TN9. Phản ứng thủy phân cellulose",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN9. Phản ứng thủy phân cellulose Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng...",
+    "id": 74,
+    "title": "TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂)",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂) - Khảo sát khả năng hoạt hóa vòng benzen của nhóm –NH₂. - Quan sát hiện tượng đặc t...",
     "keywords": [],
-    "content": "TN9. Phản ứng thủy phân cellulose",
+    "content": "TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂)",
     "url": "/docs/hoa-12/tn9"
   },
   {
-    "id": 89,
+    "id": 75,
     "title": "Lời mở đầu",
     "description": "Lời mở đầu Mục tiêu của chương trình Giáo dục Phổ thông 2018 cấp THPT môn Hóa là trang bị cho học sinh kiến thức hóa học cơ bản và hiện đại, phát triển năng lực tư duy phản biện, sáng tạo, giải quyết ...",
     "keywords": [],
@@ -712,7 +600,7 @@ export const searchData = [
     "url": "/docs/intro"
   },
   {
-    "id": 90,
+    "id": 76,
     "title": "I. Bảng Hệ Thống Tuần Hoàn",
     "description": "import PeriodicTable from \"@site/src/components/PeriodicTable\"; 1. Bảng Hệ Thống Tuần Hoàn Bảng tuần hoàn tương tác <PeriodicTable /",
     "keywords": [],
@@ -720,7 +608,7 @@ export const searchData = [
     "url": "/docs/kien-thuc-chung/bang-tuan-hoan"
   },
   {
-    "id": 91,
+    "id": 77,
     "title": "II. Các Dụng Cụ Thí Nghiệm",
     "description": "import EquipmentSection from \"@site/src/components/EquipmentSection\"; import { glassEquipment, metalEquipment, } from \"@site/src/components/EquipmentData\"; II. Các Dụng Cụ Thí Nghiệm Nghiên cứu về các...",
     "keywords": [],
@@ -728,7 +616,7 @@ export const searchData = [
     "url": "/docs/kien-thuc-chung/dung-cu"
   },
   {
-    "id": 92,
+    "id": 78,
     "title": "II. Một số gợi ý về thí nghiệm nhận biết chất:",
     "description": "import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; II. Một số gợi ý về thí nghiệm nhận biết chất: Cách nhận biết các chất thông qua thí nghiệm 1. Nhận ...",
     "keywords": [],
@@ -736,7 +624,7 @@ export const searchData = [
     "url": "/docs/kien-thuc-chung/nhan-biet-chat/nhanbiet"
   },
   {
-    "id": 93,
+    "id": 79,
     "title": "I. Trạng Thái - Màu Sắc Của Một Số Chất",
     "description": "import EquipmentSection from \"@site/src/components/EquipmentSection\"; import { singleSubstance, Compound, IonSubstance, Precipitate, } from \"@site/src/components/EquipmentData\"; import FAQ from \"@site...",
     "keywords": [],
@@ -744,7 +632,7 @@ export const searchData = [
     "url": "/docs/kien-thuc-chung/nhan-biet-chat/trangthai-mausac"
   },
   {
-    "id": 94,
+    "id": 80,
     "title": "II. Quy tắc sử dụng hoá chất",
     "description": "II. Quy tắc sử dụng hoá chất - Các lọ hoá chất phải đậy kín. - Mở nút lọ ra phải đặt ngửa nút lên. Lấy hoá chất xong phải đậy nút lại ngay để tránh nhầm lẫn và giữ lọ hoá chất. Tuyệt đối không được th...",
     "keywords": [],
@@ -752,7 +640,7 @@ export const searchData = [
     "url": "/docs/kien-thuc-chung/thaotac-quytac/quytac"
   },
   {
-    "id": 95,
+    "id": 81,
     "title": "I. Một số thao tác cơ bản trong phòng thí nghiệm",
     "description": "I. Một số thao tác cơ bản trong phòng thí nghiệm Những thao tác cần biết khi làm thí nghiệm 1. Lấy hóa chất rắn - Khi lấy hoá chất dạng rắn ta phải dùng kẹp hoặc chúng thìa, tuyệt đối không được dùng ...",
     "keywords": [],
@@ -760,7 +648,7 @@ export const searchData = [
     "url": "/docs/kien-thuc-chung/thaotac-quytac/thaotac"
   },
   {
-    "id": 96,
+    "id": 82,
     "title": "Test tube (Ống nghiệm)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Test tube (Ống nghiệm). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -777,7 +665,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 97,
+    "id": 83,
     "title": "Beakers (Cốc thủy tinh)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Beakers (Cốc thủy tinh). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -794,7 +682,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 98,
+    "id": 84,
     "title": "Erlenmeyer flask (Bình tam giác)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Erlenmeyer flask (Bình tam giác). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -811,7 +699,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 99,
+    "id": 85,
     "title": "Volumetric flask (Bình định mức)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Volumetric flask (Bình định mức). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -828,7 +716,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 100,
+    "id": 86,
     "title": "Graduated cylinder (Ống đong)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Graduated cylinder (Ống đong). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -845,7 +733,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 101,
+    "id": 87,
     "title": "Pipette (Pipet/Ống nhỏ giọt)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Pipette (Pipet/Ống nhỏ giọt). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -862,7 +750,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 102,
+    "id": 88,
     "title": "Buret",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Buret. Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -879,7 +767,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 103,
+    "id": 89,
     "title": "Spherical flask (Bình cầu)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Spherical flask (Bình cầu). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -896,7 +784,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 104,
+    "id": 90,
     "title": "Glass Condenser (Ống sinh hàn)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Glass Condenser (Ống sinh hàn). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -913,7 +801,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 105,
+    "id": 91,
     "title": "Separatory funnel (Phễu chiết)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Separatory funnel (Phễu chiết). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -930,7 +818,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 106,
+    "id": 92,
     "title": "Filtering flask (Bình lọc)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Filtering flask (Bình lọc). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -947,7 +835,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 107,
+    "id": 93,
     "title": "Watch glass (Mặt kính đồng hồ)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Watch glass (Mặt kính đồng hồ). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -964,7 +852,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 108,
+    "id": 94,
     "title": "Fusion tube (Ống nung chảy)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Fusion tube (Ống nung chảy). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -981,7 +869,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 109,
+    "id": 95,
     "title": "Reagent bottle (Chai đựng hóa chất)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Reagent bottle (Chai đựng hóa chất). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -998,7 +886,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 110,
+    "id": 96,
     "title": "Petri dish (Đĩa petri)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Petri dish (Đĩa petri). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -1015,7 +903,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 111,
+    "id": 97,
     "title": "Glass rod (Đũa thủy tinh)",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Glass rod (Đũa thủy tinh). Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -1032,7 +920,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 112,
+    "id": 98,
     "title": "Đèn cồn",
     "description": "Dụng cụ thí nghiệm thuỷ tinh: Đèn cồn. Xem chi tiết trong phần Các dụng cụ thuỷ tinh.",
     "keywords": [
@@ -1049,7 +937,7 @@ export const searchData = [
     "category": "glass"
   },
   {
-    "id": 113,
+    "id": 99,
     "title": "Buret clamp (Kẹp buret)",
     "description": "Dụng cụ thí nghiệm kim loại: Buret clamp (Kẹp buret). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1066,7 +954,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 114,
+    "id": 100,
     "title": "Clamp (Kẹp)",
     "description": "Dụng cụ thí nghiệm kim loại: Clamp (Kẹp). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1083,7 +971,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 115,
+    "id": 101,
     "title": "Test tube brush (Chổi cọ ống nghiệm)",
     "description": "Dụng cụ thí nghiệm kim loại: Test tube brush (Chổi cọ ống nghiệm). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1100,7 +988,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 116,
+    "id": 102,
     "title": "Test tube stand (Giá để ống nghiệm)",
     "description": "Dụng cụ thí nghiệm kim loại: Test tube stand (Giá để ống nghiệm). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1117,7 +1005,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 117,
+    "id": 103,
     "title": "Tongs (Kẹp gắp)",
     "description": "Dụng cụ thí nghiệm kim loại: Tongs (Kẹp gắp). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1134,7 +1022,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 118,
+    "id": 104,
     "title": "Utility clamp (Kẹp đa năng)",
     "description": "Dụng cụ thí nghiệm kim loại: Utility clamp (Kẹp đa năng). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1151,7 +1039,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 119,
+    "id": 105,
     "title": "Spot test plate (Tấm vi phiến)",
     "description": "Dụng cụ thí nghiệm kim loại: Spot test plate (Tấm vi phiến). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1168,7 +1056,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 120,
+    "id": 106,
     "title": "Tripod for Bunsen burner (Kiềng 3 chân)",
     "description": "Dụng cụ thí nghiệm kim loại: Tripod for Bunsen burner (Kiềng 3 chân). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1185,7 +1073,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 121,
+    "id": 107,
     "title": "Wash Bottle (Bình tia)",
     "description": "Dụng cụ thí nghiệm kim loại: Wash Bottle (Bình tia). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1202,7 +1090,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 122,
+    "id": 108,
     "title": "Wire Mesh Gauze (Ceramic Centre) (Lưới amiăng)",
     "description": "Dụng cụ thí nghiệm kim loại: Wire Mesh Gauze (Ceramic Centre) (Lưới amiăng). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1219,7 +1107,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 123,
+    "id": 109,
     "title": "Spatula (Thìa lấy hóa chất/Thìa cân)",
     "description": "Dụng cụ thí nghiệm kim loại: Spatula (Thìa lấy hóa chất/Thìa cân). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1236,7 +1124,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 124,
+    "id": 110,
     "title": "Mortar and pestle (Cối và chày)",
     "description": "Dụng cụ thí nghiệm kim loại: Mortar and pestle (Cối và chày). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1253,7 +1141,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 125,
+    "id": 111,
     "title": "Bếp điện",
     "description": "Dụng cụ thí nghiệm kim loại: Bếp điện. Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1270,7 +1158,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 126,
+    "id": 112,
     "title": "Digital Balance (Cân điện tử)",
     "description": "Dụng cụ thí nghiệm kim loại: Digital Balance (Cân điện tử). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
@@ -1287,7 +1175,7 @@ export const searchData = [
     "category": "metal"
   },
   {
-    "id": 127,
+    "id": 113,
     "title": "Buchner funnel vacuum filtration setup (Hệ thống lọc hút chân không phễu Buchner)",
     "description": "Dụng cụ thí nghiệm kim loại: Buchner funnel vacuum filtration setup (Hệ thống lọc hút chân không phễu Buchner). Xem chi tiết trong phần Các dụng cụ kim loại.",
     "keywords": [
