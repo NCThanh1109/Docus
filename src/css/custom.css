@@ -35,6 +35,3 @@
   text-overflow: visible;
   white-space: normal;
 }
-html[data-theme="dark"] .Youtube {
-  filter: brightness(0.9);
-}

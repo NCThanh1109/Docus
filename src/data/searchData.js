@@ -514,7 +514,7 @@ export const searchData = [
   {
     "id": 65,
     "title": "TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
-    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ C...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì) - Khảo sát quá trình oxi hóa – khử xảy ra ...",
     "keywords": [],
     "content": "TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
     "url": "/docs/hoa-12/tn13"
