@@ -482,7 +482,7 @@ export const searchData = [
   {
     "id": 61,
     "title": "TN1. Thủy phân ester trong môi trường acid và base",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN1. Thủy phân ester trong môi trường acid và base - Thử tính chất vật lý của ester – lipid. - Khảo sát, so sánh sự thủy phân của ester trong môi trường aci...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; import YouTube from \"@site/src/components/YouTube\"; TN1. Thủy phân ester trong môi trường acid và base - Thử tính chất vật lý của ester – lipid. - Khảo sát,...",
     "keywords": [],
     "content": "TN1. Thủy phân ester trong môi trường acid và base",
     "url": "/docs/hoa-12/tn1"
@@ -490,7 +490,7 @@ export const searchData = [
   {
     "id": 62,
     "title": "TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂) - Quan sát sự hình thành kết tủa Cu(OH)₂ và theo dõi quá trình kết tủa tan dần khi cho methylamin...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂) - Quan sát sự hình thành kết tủa Cu(OH)₂ và t...",
     "keywords": [],
     "content": "TN10. Phản ứng tạo phức của methylamine (CH₃NH₂ + Cu(OH)₂)",
     "url": "/docs/hoa-12/tn10"
@@ -498,7 +498,7 @@ export const searchData = [
   {
     "id": 63,
     "title": "TN11. Phản ứng màu biuret của peptide",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN11. Phản ứng màu biuret của peptide Một số phản ứng màu đặc trưng của polypeptide. 1/ Tên thí nghiệm: Phản ứng màu biuret của peptide 2/ Chuẩn Bị - Hóa ch...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN11. Phản ứng màu biuret của peptide Một số phản ứng màu đặc trưng của polypeptide. 1/ Tên thí nghiệm: ...",
     "keywords": [],
     "content": "TN11. Phản ứng màu biuret của peptide",
     "url": "/docs/hoa-12/tn11"
@@ -506,7 +506,7 @@ export const searchData = [
   {
     "id": 64,
     "title": "TN12. Pin Galvani Zn-Cu",
-    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; TN12. Pin Galvani Zn-Cu - Tìm hiểu thế điện cực chuẩn của kim loại và cấu tạo, nguyên tắc hoạt động ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; TN12. Pin Galvani Zn-Cu - Tìm hiểu thế điện cực ...",
     "keywords": [],
     "content": "TN12. Pin Galvani Zn-Cu",
     "url": "/docs/hoa-12/tn12"
@@ -514,7 +514,7 @@ export const searchData = [
   {
     "id": 65,
     "title": "TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghi...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ C...",
     "keywords": [],
     "content": "TN13. Điện phân dung dịch CuSO₄, điện cực graphite (than chì)",
     "url": "/docs/hoa-12/tn13"
@@ -522,7 +522,7 @@ export const searchData = [
   {
     "id": 66,
     "title": "TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link vid...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím Mục tiêu thí nghiệm 1/ Tên thí ...",
     "keywords": [],
     "content": "TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
     "url": "/docs/hoa-12/tn14"
@@ -530,7 +530,7 @@ export const searchData = [
   {
     "id": 67,
     "title": "TN2. Phản ứng xà phòng hóa chất béo",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN2. Phản ứng xà phòng hóa chất béo - Nghiên cứu sự thủy phân chất béo trong môi trường kiềm. - Hiểu được cơ chế xà phòng hóa và hiện tượng salting-out khi ...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; import YouTube from \"@site/src/components/YouTube\"; TN2. Phản ứng xà phòng hóa chất béo - Nghiên cứu sự thủy phân chất béo trong môi trường kiềm. - Hiểu đượ...",
     "keywords": [],
     "content": "TN2. Phản ứng xà phòng hóa chất béo",
     "url": "/docs/hoa-12/tn2"
@@ -538,7 +538,7 @@ export const searchData = [
   {
     "id": 68,
     "title": "TN3. Phản ứng ester hóa (điều chế ester)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Phản ứng ester hóa (điều chế ester) Tổng hợp dầu chuối (isomayl acetate) bằng phản ứng ester hóa. - Quan sát và phân tích phản ứng este hóa trong môi t...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN3. Phản ứng ester hóa (điều chế ester) Tổng hợp dầu chuối (isomayl acetate) bằng phản ứng ester hóa. -...",
     "keywords": [],
     "content": "TN3. Phản ứng ester hóa (điều chế ester)",
     "url": "/docs/hoa-12/tn3"
@@ -546,7 +546,7 @@ export const searchData = [
   {
     "id": 69,
     "title": "TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng) - Chứng minh glucose có các nhóm -OH liên kết với các nguyên tử carbon liền kề nhau và có ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng) - Chứng minh glucose có các nhóm -OH l...",
     "keywords": [],
     "content": "TN4. Glucose tác dụng với Cu(OH)₂ (ở nhiệt độ thường và đun nóng)",
     "url": "/docs/hoa-12/tn4"
@@ -554,7 +554,7 @@ export const searchData = [
   {
     "id": 70,
     "title": "TN5. Glucose tác dụng với thuốc thử Tollens",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN5. Glucose tác dụng với thuốc thử Tollens - Chứng minh glucose thể hiện tính chất của aldehyde. Nhận biết glucose. 1/ Tên thí nghiệm: Glucose tác dụng với...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN5. Glucose tác dụng với thuốc thử Tollens - Chứng minh glucose thể hiện tính chất của aldehyde. Nhận b...",
     "keywords": [],
     "content": "TN5. Glucose tác dụng với thuốc thử Tollens",
     "url": "/docs/hoa-12/tn5"
@@ -562,7 +562,7 @@ export const searchData = [
   {
     "id": 71,
     "title": "TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường)",
-    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường) Chứng minh saccharose có c...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import MathBlock from \"@site/src/components/MathBlock\"; import FAQ from \"@site/src/components/FAQ\"; TN6. Saccharose tác dụng với copper hydroxyde Cu...",
     "keywords": [],
     "content": "TN6. Saccharose tác dụng với copper hydroxyde Cu(OH)₂ (ở nhiệt độ thường)",
     "url": "/docs/hoa-12/tn6"
@@ -570,7 +570,7 @@ export const searchData = [
   {
     "id": 72,
     "title": "TN7. Thí nghiệm thủy phân tinh bột",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN7. Thí nghiệm thủy phân tinh bột Chứng minh tinh bột có phản ứng thủy phân trong môi trường acid. 1/ Tên thí nghiệm: Thí nghiệm thủy phân tinh bột 2/ Chuẩ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN7. Thí nghiệm thủy phân tinh bột Chứng minh tinh bột có phản ứng thủy phân trong môi trường acid. 1/ T...",
     "keywords": [],
     "content": "TN7. Thí nghiệm thủy phân tinh bột",
     "url": "/docs/hoa-12/tn7"
@@ -578,7 +578,7 @@ export const searchData = [
   {
     "id": 73,
     "title": "TN8. Tính chất base của amine",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN8. Tính chất base của amine - Nhận biết tính base yếu của amine (methylamine/ethylamine). - Quan sát phản ứng tạo muối amoni khi amine tác dụng với acid. ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN8. Tính chất base của amine - Nhận biết tính base yếu của amine (methylamine/ethylamine). - Quan sát p...",
     "keywords": [],
     "content": "TN8. Tính chất base của amine",
     "url": "/docs/hoa-12/tn8"
@@ -586,7 +586,7 @@ export const searchData = [
   {
     "id": 74,
     "title": "TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂) - Khảo sát khả năng hoạt hóa vòng benzen của nhóm –NH₂. - Quan sát hiện tượng đặc t...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂) - Khảo sát khả năng hoạt hóa vò...",
     "keywords": [],
     "content": "TN9. Thí nghiệm phản ứng của aniline với nước bromine (C₆H₅NH₂ + dd Br₂)",
     "url": "/docs/hoa-12/tn9"

@@ -1,4 +1,3 @@
-
 /* ===========================
    Docusaurus v3 Mobile Navbar Fix
    =========================== */
@@ -35,4 +34,7 @@
   overflow: visible;
   text-overflow: visible;
   white-space: normal;
+}
+html[data-theme="dark"] .Youtube {
+  filter: brightness(0.9);
 }

@@ -24,6 +24,7 @@
     "fuse.js": "^7.1.0",
     "glob": "^11.0.3",
     "gray-matter": "^4.0.3",
+    "lite-youtube-embed": "^0.3.4",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
