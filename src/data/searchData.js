@@ -498,7 +498,7 @@ export const searchData = [
   {
     "id": 63,
     "title": "TN11. Phản ứng màu biuret của peptide",
-    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN11. Phản ứng màu biuret của peptide Một số phản ứng màu đặc trưng của polypeptide. 1/ Tên thí nghiệm: ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN11. Phản ứng màu biuret của peptide Một số phản ứng màu đặc trưng của polypeptide. 1/ TÊN THÍ NGHIỆM: ...",
     "keywords": [],
     "content": "TN11. Phản ứng màu biuret của peptide",
     "url": "/docs/hoa-12/tn11"
@@ -522,7 +522,7 @@ export const searchData = [
   {
     "id": 66,
     "title": "TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
-    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím Mục tiêu thí nghiệm 1/ Tên thí ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím - Để xác định hàm lượng của muố...",
     "keywords": [],
     "content": "TN14. Thí nghiệm xác định hàm lượng muối Fe(II) bằng dung dịch thuốc tím",
     "url": "/docs/hoa-12/tn14"
