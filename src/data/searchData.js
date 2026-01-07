@@ -138,23 +138,23 @@ export const searchData = [
   {
     "id": 18,
     "title": "TN1. Thí nghiệm khám phá tia âm cực của Thomson",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN1. Thí nghiệm khám phá tia âm cực của Thomson Thí nghiệm khám phá tia âm cực của Thomson là thí nghiệm nền tảng mở ra mô hình “nguyên tử có cấu trúc”, dẫn...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN1. Thí nghiệm khám phá tia âm cực của Thomson Thí nghiệm khám phá tia âm cực của Thomson là thí nghiệm...",
     "keywords": [],
     "content": "TN1. Thí nghiệm khám phá tia âm cực của Thomson",
     "url": "/docs/hoa-10/tn1"
   },
   {
     "id": 19,
-    "title": "TN10. Ảnh hưởng của nhiệt độ đến tốc độ phản ứng (KMnO₄ + H₂C₂O₄ + H₂SO₄)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN10. Ảnh hưởng của nhiệt độ đến tốc độ phản ứng (KMnO₄ + H₂C₂O₄ + H₂SO₄) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link vi...",
+    "title": "TN10. Ảnh hưởng của nhiệt độ đến tốc độ phản ứng (Mg tác dụng với H₂O)",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN10. Ảnh hưởng của nhiệt độ đến tốc độ phản ứng (Mg tác dụng với H₂O) Nghiên cứu ảnh hưởng của nhiệt độ...",
     "keywords": [],
-    "content": "TN10. Ảnh hưởng của nhiệt độ đến tốc độ phản ứng (KMnO₄ + H₂C₂O₄ + H₂SO₄)",
+    "content": "TN10. Ảnh hưởng của nhiệt độ đến tốc độ phản ứng (Mg tác dụng với H₂O)",
     "url": "/docs/hoa-10/tn10"
   },
   {
     "id": 20,
     "title": "TN11. Ảnh hưởng của áp suất đến tốc độ phản ứng",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN11. Ảnh hưởng của áp suất đến tốc độ phản ứng Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tíc...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN11. Ảnh hưởng của áp suất đến tốc độ phản ứng Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các...",
     "keywords": [],
     "content": "TN11. Ảnh hưởng của áp suất đến tốc độ phản ứng",
     "url": "/docs/hoa-10/tn11"
@@ -162,23 +162,23 @@ export const searchData = [
   {
     "id": 21,
     "title": "TN12. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN12. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN12. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng Nghiên cứu ảnh hưởng của bề mặt tiếp xúc đến tốc...",
     "keywords": [],
     "content": "TN12. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng",
     "url": "/docs/hoa-10/tn12"
   },
   {
     "id": 22,
-    "title": "TN13. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN13. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ ...",
+    "title": "TN13. Ảnh hưởng của CHẤT XÚC TÁC đến tốc độ phản ứng",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN13. Ảnh hưởng của CHẤT XÚC TÁC đến tốc độ phản ứng Nghiên cứu ảnh hưởng của chất xúc tác đến tốc độ ph...",
     "keywords": [],
-    "content": "TN13. Ảnh hưởng của bề mặt tiếp xúc đến tốc độ phản ứng",
+    "content": "TN13. Ảnh hưởng của CHẤT XÚC TÁC đến tốc độ phản ứng",
     "url": "/docs/hoa-10/tn13"
   },
   {
     "id": 23,
     "title": "TN14. Điều chế chlorine",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN14. Điều chế chlorine Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa từng bước tiến...",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN14. Điều chế chlorine - Nguyên tắc điều chế ch...",
     "keywords": [],
     "content": "TN14. Điều chế chlorine",
     "url": "/docs/hoa-10/tn14"
@@ -186,7 +186,7 @@ export const searchData = [
   {
     "id": 24,
     "title": "TN15. Chlorine tác dụng với kim loại",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN15. Chlorine tác dụng với kim loại Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa t...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN15. Chlorine tác dụng với kim loại Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến ...",
     "keywords": [],
     "content": "TN15. Chlorine tác dụng với kim loại",
     "url": "/docs/hoa-10/tn15"
@@ -194,7 +194,7 @@ export const searchData = [
   {
     "id": 25,
     "title": "TN16. Chlorine tác dụng với nước - tính tẩy màu của nước chlorine - tính tẩy màu của khí chlorine ẩm",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN16. Chlorine tác dụng với nước - tính tẩy màu của nước chlorine - tính tẩy màu của khí chlorine ẩm Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Cá...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN16. Chlorine tác dụng với nước - tính tẩy màu của nước chlorine - tính tẩy màu của khí chlorine ẩm Mục...",
     "keywords": [],
     "content": "TN16. Chlorine tác dụng với nước - tính tẩy màu của nước chlorine - tính tẩy màu của khí chlorine ẩm",
     "url": "/docs/hoa-10/tn16"
@@ -202,7 +202,7 @@ export const searchData = [
   {
     "id": 26,
     "title": "TN17. Điều chế và tính tẩy màu của nước Javel",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN17. Điều chế và tính tẩy màu của nước Javel Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN17. Điều chế và tính tẩy màu của nước Javel Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các b...",
     "keywords": [],
     "content": "TN17. Điều chế và tính tẩy màu của nước Javel",
     "url": "/docs/hoa-10/tn17"
@@ -210,7 +210,7 @@ export const searchData = [
   {
     "id": 27,
     "title": "TN18. Điều chế và tính chất của khí hydrogen chloride (HCl)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN18. Điều chế và tính chất của khí hydrogen chloride (HCl) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN18. Điều chế và tính chất của khí hydrogen chloride (HCl) - Điều chế khí hydrogen chloride (HCl) trong...",
     "keywords": [],
     "content": "TN18. Điều chế và tính chất của khí hydrogen chloride (HCl)",
     "url": "/docs/hoa-10/tn18"
@@ -218,7 +218,7 @@ export const searchData = [
   {
     "id": 28,
     "title": "TN19. Nhận biết ion halide trong dung dịch",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN19. Nhận biết ion halide trong dung dịch Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý n...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN19. Nhận biết ion halide trong dung dịch Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước...",
     "keywords": [],
     "content": "TN19. Nhận biết ion halide trong dung dịch",
     "url": "/docs/hoa-10/tn19"
@@ -226,7 +226,7 @@ export const searchData = [
   {
     "id": 29,
     "title": "TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford - Khám phá cấu trúc bên trong của nguyên tử - Kiểm chứng mô hình “nguyên tử rắn đặc” kiểu Thomson...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford - Khám phá cấu trúc bên trong của nguyên tử -...",
     "keywords": [],
     "content": "TN2. Thí nghiệm khám phá hạt nhân nguyên tử của Rutherford",
     "url": "/docs/hoa-10/tn2"
@@ -234,7 +234,7 @@ export const searchData = [
   {
     "id": 30,
     "title": "TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π) - Mô tả cơ chế xen phủ tạo liên kết σ và π - Hiểu độ bền & định hướng liên kết - Ứng dụng trong liên kết đơn, ...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π) - Mô tả cơ chế xen phủ tạo liên kết σ và π - Hiểu độ bền &...",
     "keywords": [],
     "content": "TN3. Sự hình thành liên kết Sigma(σ) Và Pi(π)",
     "url": "/docs/hoa-10/tn3"
@@ -242,7 +242,7 @@ export const searchData = [
   {
     "id": 31,
     "title": "TN4. Sự tạo thành liên kết hydrogen giữa các phân tử H₂O và NH₃",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN4. Sự tạo thành liên kết hydrogen giữa các phân tử H₂O và NH₃ Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí ng...",
+    "description": "import FAQ from \"@site/src/components/FAQ\"; import YouTube from \"@site/src/components/YouTube\"; TN4. Sự tạo thành liên kết hydrogen giữa các phân tử H₂O và NH₃ Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/...",
     "keywords": [],
     "content": "TN4. Sự tạo thành liên kết hydrogen giữa các phân tử H₂O và NH₃",
     "url": "/docs/hoa-10/tn4"
@@ -250,7 +250,7 @@ export const searchData = [
   {
     "id": 32,
     "title": "TN5. Giới thiệu về tương tác Van der Waals",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN5. Giới thiệu về tương tác Van der Waals Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý n...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN5. Giới thiệu về tương tác Van der Waals Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước...",
     "keywords": [],
     "content": "TN5. Giới thiệu về tương tác Van der Waals",
     "url": "/docs/hoa-10/tn5"
@@ -258,7 +258,7 @@ export const searchData = [
   {
     "id": 33,
     "title": "TN6. Thí nghiệm phản ứng oxi hóa khử",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN6. Thí nghiệm phản ứng oxi hóa khử Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ Phân tích ý nghĩa t...",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN6. Thí nghiệm phản ứng oxi hóa khử - Nêu được ...",
     "keywords": [],
     "content": "TN6. Thí nghiệm phản ứng oxi hóa khử",
     "url": "/docs/hoa-10/tn6"
@@ -266,7 +266,7 @@ export const searchData = [
   {
     "id": 34,
     "title": "TN7. Phản ứng tỏa nhiệt (phản ứng của vôi sống với nước)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN7. Phản ứng tỏa nhiệt (phản ứng của vôi sống với nước) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/...",
+    "description": "import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN7. Phản ứng tỏa nhiệt (phản ứng của vôi sống với nước) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn ...",
     "keywords": [],
     "content": "TN7. Phản ứng tỏa nhiệt (phản ứng của vôi sống với nước)",
     "url": "/docs/hoa-10/tn7"
@@ -274,17 +274,17 @@ export const searchData = [
   {
     "id": 35,
     "title": "TN8. Phản ứng thu nhiệt (nhiệt phân potassium chlorate)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN8. Phản ứng thu nhiệt (nhiệt phân potassium chlorate) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4/ Link video thí nghiệm 5/ ...",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN8. Phản ứng thu nhiệt (nhiệt phân potassium ch...",
     "keywords": [],
     "content": "TN8. Phản ứng thu nhiệt (nhiệt phân potassium chlorate)",
     "url": "/docs/hoa-10/tn8"
   },
   {
     "id": 36,
-    "title": "TN9. Ảnh hưởng của nồng độ đến tốc độ phản ứng ( Na₂S₂O₃ tác dụng dung dịch H₂SO₄)",
-    "description": "import FAQ from \"@site/src/components/FAQ\"; TN9. Ảnh hưởng của nồng độ đến tốc độ phản ứng ( Na₂S₂O₃ tác dụng dung dịch H₂SO₄) Mục tiêu thí nghiệm 1/ Tên thí nghiệm 2/ Chuẩn Bị 3/ Các bước tiến hành 4...",
+    "title": "TN9. Ảnh hưởng của nồng độ đến tốc độ phản ứng (Na₂S₂O₃ tác dụng dung dịch H₂SO₄)",
+    "description": "import MathBlock from \"@site/src/components/MathBlock\"; import YouTube from \"@site/src/components/YouTube\"; import FAQ from \"@site/src/components/FAQ\"; TN9. Ảnh hưởng của nồng độ đến tốc độ phản ứng (...",
     "keywords": [],
-    "content": "TN9. Ảnh hưởng của nồng độ đến tốc độ phản ứng ( Na₂S₂O₃ tác dụng dung dịch H₂SO₄)",
+    "content": "TN9. Ảnh hưởng của nồng độ đến tốc độ phản ứng (Na₂S₂O₃ tác dụng dung dịch H₂SO₄)",
     "url": "/docs/hoa-10/tn9"
   },
   {
